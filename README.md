@@ -2,4 +2,4 @@
 
 This is the project done for the COSC482: Data Science and Web Scraping Course at RHU University in lebanon
 
-Branch: Mohammad Hassanieh
+Branch: Osama Ayoub
