@@ -5,7 +5,7 @@ import re
 import time
 
 # -----------------------------
-# CONFIG
+# CONFIG: Regions
 # -----------------------------
 REGIONS = {
     "US": "en-US",
@@ -19,139 +19,96 @@ HEADERS = {
 }
 
 # -----------------------------
-# HELPER: Extract price
+# HELPER: Extract price info
 # -----------------------------
-def extract_price(text):
+def extract_price_info(text):
+    """
+    Extracts currency, price, and billing period from text
+    """
+    currency, price = None, None
     match = re.search(r'([\$£₹€])\s?(\d+(\.\d+)?)', text)
     if match:
-        return match.group(1), float(match.group(2))
-    return None, None
+        currency = match.group(1)
+        price = float(match.group(2))
+
+    # Billing period
+    if "month" in text.lower():
+        billing = "Monthly"
+    elif "year" in text.lower():
+        billing = "Yearly"
+    else:
+        billing = "Unknown"
+
+    return currency, price, billing
 
 # -----------------------------
-# SPOTIFY
+# GENERAL SCRAPER FUNCTION
 # -----------------------------
-def scrape_spotify(region, lang):
-    url = "https://www.spotify.com/premium/"
-    headers = HEADERS.copy()
-    headers["Accept-Language"] = lang
-
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.text, "html.parser")
-
+def scrape_platform(name, url, region, lang, plan_name="Standard"):
+    """
+    Generic scraper for platforms with public pages
+    """
     results = []
-
-    plans = soup.find_all("div")
-
-    for plan in plans:
-        text = plan.get_text(" ", strip=True)
-
-        if "Premium" in text and ("month" in text.lower()):
-            currency, price = extract_price(text)
-
+    try:
+        headers = HEADERS.copy()
+        headers["Accept-Language"] = lang
+        response = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(response.text, "html.parser")
+        text = soup.get_text(" ", strip=True)
+        
+        currency, price, billing = extract_price_info(text)
+        if price:
             results.append({
-                "Service": "Spotify",
+                "Service": name,
                 "Region": region,
-                "Plan": text.split(" ")[0],
+                "Plan": plan_name,
                 "Price": price,
                 "Currency": currency,
-                "Billing": "Monthly"
+                "Billing": billing
             })
-
+    except Exception as e:
+        print(f"Error scraping {name} ({region}): {e}")
     return results
 
+# -----------------------------
+# PLATFORMS CONFIG
+# -----------------------------
+platforms = [
+    {"name": "Spotify", "url": "https://www.spotify.com/premium/", "plan": "Premium"},
+    {"name": "Apple TV+", "url": "https://www.apple.com/apple-tv-plus/", "plan": "Standard"},
+    {"name": "Amazon Prime", "url": "https://www.amazon.com/amazonprime", "plan": "Prime"},
+    {"name": "YouTube Premium", "url": "https://www.youtube.com/premium", "plan": "Premium"},
+    {"name": "Deezer", "url": "https://www.deezer.com/offers", "plan": "Premium"}
+]
 
 # -----------------------------
-# APPLE TV+
-# -----------------------------
-def scrape_apple(region, lang):
-    url = "https://www.apple.com/apple-tv-plus/"
-    headers = HEADERS.copy()
-    headers["Accept-Language"] = lang
-
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    text = soup.get_text(" ", strip=True)
-
-    results = []
-
-    currency, price = extract_price(text)
-
-    if price:
-        results.append({
-            "Service": "Apple TV+",
-            "Region": region,
-            "Plan": "Standard",
-            "Price": price,
-            "Currency": currency,
-            "Billing": "Monthly"
-        })
-
-    return results
-
-
-# -----------------------------
-# AMAZON PRIME
-# -----------------------------
-def scrape_amazon(region, lang):
-    url = "https://www.amazon.com/amazonprime"
-    headers = HEADERS.copy()
-    headers["Accept-Language"] = lang
-
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    text = soup.get_text(" ", strip=True)
-
-    results = []
-
-    currency, price = extract_price(text)
-
-    if price:
-        results.append({
-            "Service": "Amazon Prime",
-            "Region": region,
-            "Plan": "Prime",
-            "Price": price,
-            "Currency": currency,
-            "Billing": "Monthly/Yearly"
-        })
-
-    return results
-
-
-# -----------------------------
-# MAIN
+# SCRAPE ALL REGIONS & PLATFORMS
 # -----------------------------
 all_data = []
 
 for region, lang in REGIONS.items():
-    print(f"Scraping {region}...")
-
-    all_data.extend(scrape_spotify(region, lang))
-    time.sleep(2)
-
-    all_data.extend(scrape_apple(region, lang))
-    time.sleep(2)
-
-    all_data.extend(scrape_amazon(region, lang))
-    time.sleep(2)
+    print(f"Scraping region: {region}")
+    for platform in platforms:
+        all_data += scrape_platform(
+            platform["name"],
+            platform["url"],
+            region,
+            lang,
+            platform["plan"]
+        )
+        time.sleep(2)  # polite delay
 
 # -----------------------------
-# DATAFRAME
+# CREATE CLEAN DATAFRAME
 # -----------------------------
 df = pd.DataFrame(all_data)
-
-# Remove duplicates
 df = df.drop_duplicates()
-
-# Sort nicely
-df = df.sort_values(by=["Service", "Region"])
+df = df.sort_values(by=["Service", "Region", "Plan"])
 
 # -----------------------------
 # SAVE TO EXCEL
 # -----------------------------
-df.to_excel("streaming_prices.xlsx", index=False)
-
-print("\n✅ Excel file created: streaming_prices.xlsx")
+excel_file = "streaming_prices_clean.xlsx"
+df.to_excel(excel_file, index=False)
+print(f"\n✅ Excel file created: {excel_file}")
 print(df)
