@@ -15,7 +15,7 @@ def main() -> None:
     # 10 second waiting period for the elements to load
     wait_delay: int = 10
     sleep_delay: int = 3
-    output_path: str = "currencies.csv"
+    output_path: str = "./data/currencies.csv"
     try:
         url = "https://www.exchangerates.org.uk/currency-calculator.html"
         wait: WebDriverWait[WebDriver] = WebDriverWait(driver, wait_delay)

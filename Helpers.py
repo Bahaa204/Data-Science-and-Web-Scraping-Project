@@ -11,6 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.remote.webelement import WebElement
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
+import requests
 
 currencies: list[str] = [
     "ARS",
@@ -119,3 +120,16 @@ def selectFromDropdown(
                 container,
             )
         sleep(0.2)
+
+
+def GetCountries():
+    countries: list[str] = []
+    url = "https://api.worldbank.org/v2/country?format=json&per_page=300"
+
+    response = requests.get(url)
+    data = response.json()
+
+    for country in data[1]:  # data[1] contains all countries
+        countries.append(country["id"])  # Country ISO Alpha 3 Code
+
+    return countries
