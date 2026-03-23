@@ -1,11 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import re
 import time
+import re
 
 # -----------------------------
-# CONFIG: Regions
+# CONFIG
 # -----------------------------
 REGIONS = {
     "US": "en-US",
@@ -15,100 +15,115 @@ REGIONS = {
 }
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0"
+    "User-Agent": "Mozilla/5.0",
 }
 
-# -----------------------------
-# HELPER: Extract price info
-# -----------------------------
-def extract_price_info(text):
-    """
-    Extracts currency, price, and billing period from text
-    """
-    currency, price = None, None
-    match = re.search(r'([\$£₹€])\s?(\d+(\.\d+)?)', text)
-    if match:
-        currency = match.group(1)
-        price = float(match.group(2))
-
-    # Billing period
-    if "month" in text.lower():
-        billing = "Monthly"
-    elif "year" in text.lower():
-        billing = "Yearly"
-    else:
-        billing = "Unknown"
-
-    return currency, price, billing
+# Regex to extract price and currency
+PRICE_REGEX = re.compile(r"(\$|£|€)\s?(\d+\.?\d*)")
 
 # -----------------------------
-# GENERAL SCRAPER FUNCTION
+# HELPER FUNCTIONS
 # -----------------------------
-def scrape_platform(name, url, region, lang, plan_name="Standard"):
-    """
-    Generic scraper for platforms with public pages
-    """
-    results = []
+def get_soup(url, lang):
+    headers = HEADERS.copy()
+    headers["Accept-Language"] = lang
     try:
-        headers = HEADERS.copy()
-        headers["Accept-Language"] = lang
         response = requests.get(url, headers=headers, timeout=10)
-        soup = BeautifulSoup(response.text, "html.parser")
-        text = soup.get_text(" ", strip=True)
-        
-        currency, price, billing = extract_price_info(text)
-        if price:
-            results.append({
-                "Service": name,
-                "Region": region,
-                "Plan": plan_name,
-                "Price": price,
-                "Currency": currency,
-                "Billing": billing
+        response.raise_for_status()
+        return BeautifulSoup(response.text, "html.parser")
+    except requests.RequestException:
+        return None
+
+def extract_price_info(text):
+    match = PRICE_REGEX.search(text)
+    if match:
+        currency, price = match.groups()
+        return currency, price
+    return None, None
+
+# -----------------------------
+# SERVICE SCRAPERS
+# -----------------------------
+def scrape_spotify(region, lang):
+    url = "https://www.spotify.com/premium/"
+    soup = get_soup(url, lang)
+    if not soup:
+        return []
+
+    data = []
+    for plan_div in soup.find_all("div"):
+        text = plan_div.get_text(" ", strip=True)
+        if "month" in text.lower() or "$" in text or "£" in text:
+            currency, price = extract_price_info(text)
+            data.append({
+                "service": "Spotify",
+                "region": region,
+                "plan_name": text[:50],
+                "price": price,
+                "currency": currency
             })
-    except Exception as e:
-        print(f"Error scraping {name} ({region}): {e}")
-    return results
+    return data
+
+def scrape_apple(region, lang):
+    url = "https://www.apple.com/apple-tv-plus/"
+    soup = get_soup(url, lang)
+    if not soup:
+        return []
+
+    data = []
+    text = soup.get_text(" ", strip=True)
+    for line in text.split("."):
+        currency, price = extract_price_info(line)
+        if price:
+            data.append({
+                "service": "Apple TV+",
+                "region": region,
+                "plan_name": line.strip()[:50],
+                "price": price,
+                "currency": currency
+            })
+    return data
+
+def scrape_amazon(region, lang):
+    url = "https://www.amazon.com/amazonprime"
+    soup = get_soup(url, lang)
+    if not soup:
+        return []
+
+    data = []
+    text = soup.get_text(" ", strip=True)
+    for line in text.split("."):
+        currency, price = extract_price_info(line)
+        if price:
+            data.append({
+                "service": "Amazon Prime",
+                "region": region,
+                "plan_name": line.strip()[:50],
+                "price": price,
+                "currency": currency
+            })
+    return data
 
 # -----------------------------
-# PLATFORMS CONFIG
-# -----------------------------
-platforms = [
-    {"name": "Spotify", "url": "https://www.spotify.com/premium/", "plan": "Premium"},
-    {"name": "Apple TV+", "url": "https://www.apple.com/apple-tv-plus/", "plan": "Standard"},
-    {"name": "Amazon Prime", "url": "https://www.amazon.com/amazonprime", "plan": "Prime"},
-    {"name": "YouTube Premium", "url": "https://www.youtube.com/premium", "plan": "Premium"},
-    {"name": "Deezer", "url": "https://www.deezer.com/offers", "plan": "Premium"}
-]
-
-# -----------------------------
-# SCRAPE ALL REGIONS & PLATFORMS
+# MAIN RUNNER
 # -----------------------------
 all_data = []
 
 for region, lang in REGIONS.items():
-    print(f"Scraping region: {region}")
-    for platform in platforms:
-        all_data += scrape_platform(
-            platform["name"],
-            platform["url"],
-            region,
-            lang,
-            platform["plan"]
-        )
-        time.sleep(2)  # polite delay
+    print(f"Scraping {region}...")
+    all_data.extend(scrape_spotify(region, lang))
+    time.sleep(2)
+    all_data.extend(scrape_apple(region, lang))
+    time.sleep(2)
+    all_data.extend(scrape_amazon(region, lang))
+    time.sleep(2)
 
 # -----------------------------
-# CREATE CLEAN DATAFRAME
+# SAVE RESULTS
 # -----------------------------
 df = pd.DataFrame(all_data)
-df = df.drop_duplicates()
-df = df.sort_values(by=["Service", "Region", "Plan"])
+df.drop_duplicates(inplace=True)
+df.to_csv("streaming_prices3.csv", index=False)
 
-# -----------------------------
-# SAVE TO EXCEL
-# -----------------------------
-excel_file = "streaming_prices_clean.xlsx"
-df.to_excel(excel_file, index=False)
-print(f"\n✅ Excel file created: {excel_file}")
-print(df)
+print("Done! Data saved to streaming_prices.csv")
+print(df.head())
