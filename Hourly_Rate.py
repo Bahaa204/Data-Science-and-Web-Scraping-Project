@@ -1,14 +1,14 @@
 import requests
 from Helpers import GetCountries
+import pandas as pd
 
-countries = GetCountries()
-indicator = "NY.GDP.PCAP.CD"
 
 # Estimated work hours per year
 HOURS_PER_YEAR = 2080
 
 
-def get_hourly_wage(country_code):
+def get_hourly_wage(country_code: str, indicator: str):
+
     url = f"https://api.worldbank.org/v2/country/{country_code}/indicator/{indicator}?format=json&per_page=20"
 
     try:
@@ -34,10 +34,28 @@ def get_hourly_wage(country_code):
         return None, None
 
 
-for country in countries:
-    wage, year = get_hourly_wage(country)
+def main() -> None:
 
-    if wage:
-        print(f"{country}: ${wage}/hour (based on {year})")
-    else:
-        print(f"{country}: No data available")
+    countries = GetCountries()
+    indicator = "NY.GDP.PCAP.CD"
+    file_path: str = "./data/Hourly_Rate.csv"
+
+    data = []
+
+    for country in countries:
+        wage, year = get_hourly_wage(country, indicator)
+
+        if wage:
+            print(f"{country}: {wage}/hour")
+            data.append({"country": country, "Hourly Wage in $": wage, "year": year})
+        else:
+            print(f"{country}: No Data is available")
+            data.append({"country": country, "wage": None, "year": None})
+
+    df = pd.DataFrame(data)
+    df.to_csv(file_path, index=False)
+    print(f"Successfully saved to {file_path}")
+
+
+if __name__ == "__main__":
+    main()
