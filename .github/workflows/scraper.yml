@@ -1,36 +1,40 @@
 name: Run Scraper
 
 on:
-  schedule:
-    - cron: '0 */3 * * *'  # every 3 hours
-  workflow_dispatch:
-
-permissions:
-  contents: write
+  workflow_dispatch:        # manual trigger
+  schedule:                 # automatic every 3 hours
+    - cron: '0 */3 * * *'
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      # 1️⃣ Checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2️⃣ Install Chrome (for Selenium)
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      # 3️⃣ Setup Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
+      # 4️⃣ Install dependencies
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # 5️⃣ Run scraper script
       - name: Run scraper
         run: python scraper.py
 
-      - name: Commit & push results
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Update data [auto]" || echo "No changes"
-          git push
+      # 6️⃣ Upload output files as artifact
+      - name: Upload results
+        uses: actions/upload-artifact@v3
+        with:
+          name: scraper-output
+          path: output/*.csv   # adjust to your generated file path
