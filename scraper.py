@@ -4,10 +4,14 @@ import pandas as pd
 import time
 import re
 from datetime import datetime
+import os
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
 # -----------------------------
@@ -17,7 +21,10 @@ REGIONS = [
     ("US", "en-US"),
     ("UK", "en-GB"),
     ("India", "en-IN"),
-    ("Lebanon", "en-LB")
+    ("Lebanon", "en-LB"),
+    ("Canada", "en-CA"),
+    ("Germany", "de-DE"),
+    ("Australia", "en-AU")
 ]
 
 INDEX_FILE = "region_index.txt"
@@ -27,6 +34,9 @@ HEADERS = {
 }
 
 PRICE_REGEX = re.compile(r"(\$|£|€)\s?(\d+\.?\d*)")
+
+OUTPUT_FOLDER = "output"
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 # -----------------------------
 # REGION ROTATION
@@ -45,130 +55,184 @@ def save_region_index(index):
 # -----------------------------
 # HELPERS
 # -----------------------------
-def extract_price_info(text):
-    match = PRICE_REGEX.search(text)
-    if match:
-        return match.group(2), match.group(1)
-    return None, None
+def extract_prices(text):
+    matches = PRICE_REGEX.findall(text)
+    if len(matches) >= 2:
+        (currency1, original), (currency2, discounted) = matches[:2]
+        return original, discounted, currency1
+    elif len(matches) == 1:
+        (currency, discounted) = matches[0]
+        return "", discounted, currency
+    else:
+        return "", "", ""
 
 def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
+
+def safe_request(url):
+    try:
+        res = requests.get(url, headers=HEADERS, timeout=15)
+        res.raise_for_status()
+        return res
+    except Exception as e:
+        print(f"Request failed for {url}: {e}")
+        return None
 
 # -----------------------------
 # SELENIUM DRIVER
 # -----------------------------
 def get_driver():
     options = Options()
-    options.add_argument("--headless")
+    options.add_argument("--headless=new")  # modern headless
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
 
-    return webdriver.Chrome(ChromeDriverManager().install(), options=options)
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
+
+    return driver
 
 # -----------------------------
 # SCRAPERS
 # -----------------------------
 def scrape_spotify(region, lang):
+    print(f"Scraping Spotify for {region}...")
     url = "https://www.spotify.com/premium/"
-    try:
-        res = requests.get(url, headers=HEADERS)
-        soup = BeautifulSoup(res.text, "html.parser")
-    except:
+    res = safe_request(url)
+    if not res:
         return []
 
+    soup = BeautifulSoup(res.text, "html.parser")
     data = []
+
     for div in soup.find_all("div"):
         text = clean_text(div.get_text())
         if "month" in text.lower():
-            price, currency = extract_price_info(text)
-            if price:
+            original, discounted, currency = extract_prices(text)
+            if discounted:
                 data.append({
                     "service": "Spotify",
                     "region": region,
                     "plan_type": "Music",
-                    "plan_name": text[:60],
-                    "price": price,
+                    "plan_name": text[:100],
+                    "price_original": original,
+                    "price_discounted": discounted,
                     "currency": currency
                 })
+
     return data
 
 
 def scrape_netflix(region, lang):
-    driver = get_driver()
-    driver.get("https://www.netflix.com/signup")
-
-    time.sleep(5)
-
+    print(f"Scraping Netflix for {region}...")
     data = []
-    elements = driver.find_elements(By.XPATH, "//*[contains(text(),'$') or contains(text(),'£') or contains(text(),'€')]")
+    driver = None
 
-    for el in elements:
-        text = el.text
-        price, currency = extract_price_info(text)
+    try:
+        driver = get_driver()
+        driver.get("https://www.netflix.com/signup")
+        time.sleep(5)
 
-        if price:
-            data.append({
-                "service": "Netflix",
-                "region": region,
-                "plan_type": "Streaming",
-                "plan_name": text[:60],
-                "price": price,
-                "currency": currency
-            })
+        elements = WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located(
+                (By.XPATH, "//*[contains(text(),'$') or contains(text(),'£') or contains(text(),'€')]")
+            )
+        )
 
-    driver.quit()
+        for el in elements:
+            text = clean_text(el.text)
+            original, discounted, currency = extract_prices(text)
+
+            if discounted:
+                data.append({
+                    "service": "Netflix",
+                    "region": region,
+                    "plan_type": "Streaming",
+                    "plan_name": text[:100],
+                    "price_original": original,
+                    "price_discounted": discounted,
+                    "currency": currency
+                })
+
+    except Exception as e:
+        print(f"Netflix scraping failed: {e}")
+
+    finally:
+        if driver:
+            driver.quit()
+
     return data
 
 
 def scrape_apple(region, lang):
+    print(f"Scraping Apple TV+ for {region}...")
     url = "https://www.apple.com/apple-tv-plus/"
-    try:
-        res = requests.get(url, headers=HEADERS)
-        soup = BeautifulSoup(res.text, "html.parser")
-    except:
+    res = safe_request(url)
+    if not res:
         return []
 
+    soup = BeautifulSoup(res.text, "html.parser")
     data = []
+
     text = soup.get_text(" ", strip=True)
 
     for line in text.split("."):
-        price, currency = extract_price_info(line)
-        if price:
+        line = clean_text(line)
+        original, discounted, currency = extract_prices(line)
+
+        if discounted:
             data.append({
                 "service": "Apple TV+",
                 "region": region,
                 "plan_type": "Streaming",
-                "plan_name": clean_text(line[:60]),
-                "price": price,
+                "plan_name": line[:100],
+                "price_original": original,
+                "price_discounted": discounted,
                 "currency": currency
             })
+
     return data
 
 
 def scrape_youtube(region, lang):
-    driver = get_driver()
-    driver.get("https://www.youtube.com/premium")
-
-    time.sleep(5)
-
+    print(f"Scraping YouTube Premium for {region}...")
     data = []
-    elements = driver.find_elements(By.XPATH, "//*[contains(text(),'$') or contains(text(),'£') or contains(text(),'€')]")
+    driver = None
 
-    for el in elements:
-        text = el.text
-        price, currency = extract_price_info(text)
+    try:
+        driver = get_driver()
+        driver.get("https://www.youtube.com/premium")
+        time.sleep(5)
 
-        if price:
-            data.append({
-                "service": "YouTube Premium",
-                "region": region,
-                "plan_type": "Video+Music",
-                "plan_name": text[:60],
-                "price": price,
-                "currency": currency
-            })
+        elements = WebDriverWait(driver, 10).until(
+            EC.presence_of_all_elements_located(
+                (By.XPATH, "//*[contains(text(),'$') or contains(text(),'£') or contains(text(),'€')]")
+            )
+        )
 
-    driver.quit()
+        for el in elements:
+            text = clean_text(el.text)
+            original, discounted, currency = extract_prices(text)
+
+            if discounted:
+                data.append({
+                    "service": "YouTube Premium",
+                    "region": region,
+                    "plan_type": "Video+Music",
+                    "plan_name": text[:100],
+                    "price_original": original,
+                    "price_discounted": discounted,
+                    "currency": currency
+                })
+
+    except Exception as e:
+        print(f"YouTube scraping failed: {e}")
+
+    finally:
+        if driver:
+            driver.quit()
+
     return data
 
 # -----------------------------
@@ -178,7 +242,9 @@ def run():
     index = get_region_index()
     region, lang = REGIONS[index]
 
-    print(f"Running for region: {region}")
+    print("=" * 50)
+    print(f"Running scraper for region: {region}")
+    print("=" * 50)
 
     data = []
 
@@ -197,11 +263,20 @@ def run():
         df = pd.DataFrame(data)
         df.drop_duplicates(inplace=True)
 
-        filename = f"data_{region}_{datetime.now().strftime('%Y%m%d_%H%M')}.csv"
+        filename = os.path.join(
+            OUTPUT_FOLDER,
+            f"data_{region}_{datetime.now().strftime('%Y%m%d_%H%M')}.csv"
+        )
+
         df.to_csv(filename, index=False)
+        print(f"\nSaved successfully: {filename}")
+        print(df.head())
+    else:
+        print("\nNo data found for this run.")
 
     next_index = (index + 1) % len(REGIONS)
     save_region_index(next_index)
+    print(f"Next region index saved: {next_index}")
 
 
 if __name__ == "__main__":
