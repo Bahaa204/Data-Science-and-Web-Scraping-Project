@@ -1,0 +1,262 @@
+country_code,hourly_wage_usd,country_name
+ABW,18.99,Aruba
+AFE,0.78,Africa Eastern
+AFG,0.2,Afghanistan
+AFW,0.68,Africa Western
+AGO,1.28,Angola
+ALB,5.47,Albania
+AND,23.7,Andorra
+ARB,3.65,Arab World
+ARE,24.17,United Arab Emirates
+ARG,6.72,Argentina
+ARM,4.11,Armenia
+ASM,8.66,American Samoa
+ATG,11.32,Antigua and Barbuda
+AUS,31.06,Australia
+AUT,28.01,Austria
+AZE,3.5,Azerbaijan
+BDI,0.11,Burundi
+BEL,27.22,Belgium
+BEN,0.71,Benin
+BFA,0.47,Burkina Faso
+BGD,1.25,Bangladesh
+BGR,8.46,Bulgaria
+BHR,14.26,Bahrain
+BHS,18.97,Bahamas
+BIH,4.5,Bosnia and Herzegovina
+BLR,4.0,Belarus
+BLZ,3.69,Belize
+BMU,68.68,Bermuda
+BOL,2.13,Bolivia
+BRA,4.96,Brazil
+BRB,12.76,Barbados
+BRN,15.94,Brunei
+BTN,1.84,Bhutan
+BWA,3.7,Botswana
+CAF,0.25,Central African Republic
+CAN,26.13,Canada
+CEB,11.83,Central Europe and Baltics
+CHE,50.0,Switzerland
+CHL,8.03,Chile
+CHN,6.4,China
+CIV,1.31,Côte d'Ivoire
+CMR,0.88,Cameroon
+COD,0.31,Democratic Republic of the Congo
+COG,1.19,Republic of the Congo
+COL,3.81,Colombia
+COM,0.8,Comoros
+CPV,2.5,Cape Verde
+CRI,8.94,Costa Rica
+CSS,9.57,Czech Republic
+CUB,4.62,Cuba
+CUW,10.98,Curaçao
+CYM,47.67,Cayman Islands
+CYP,18.59,Cyprus
+CZE,15.3,Czech Republic
+DEU,26.97,Germany
+DJI,1.71,Djibouti
+DMA,5.0,Dominica
+DNK,34.15,Denmark
+DOM,5.23,Dominican Republic
+DZA,2.77,Algeria
+EAP,5.0,East Asia & Pacific
+EAR,2.14,Early
+EAS,6.45,East Asia
+ECA,4.71,Europe & Central Asia
+ECS,15.17,Ecuador
+ECU,3.31,Ecuador
+EGY,1.61,Egypt
+EMU,22.57,Euro area
+ERI,0.33,Eritrea
+ESP,16.98,Spain
+EST,15.11,Estonia
+ETH,0.55,Ethiopia
+EUU,20.82,European Union
+FCS,0.73,Fragile and Conflict Affected States
+FIN,25.55,Finland
+FJI,3.09,Fiji
+FRA,22.16,France
+FRO,35.63,Faroe Islands
+FSM,2.0,Micronesia
+GAB,3.96,Gabon
+GBR,25.6,United Kingdom
+GEO,4.44,Georgia
+GHA,1.15,Ghana
+GIN,0.81,Guinea
+GMB,0.42,Gambia
+GNB,0.48,Guinea-Bissau
+GNQ,3.24,Equatorial Guinea
+GRC,11.84,Greece
+GRD,5.63,Grenada
+GRL,28.12,Greenland
+GTM,2.96,Guatemala
+GUM,20.11,Guam
+GUY,14.27,Guyana
+HIC,24.18,High income
+HKG,26.0,Hong Kong
+HND,1.65,Honduras
+HPC,0.58,High income
+HRV,11.56,Croatia
+HTI,1.03,Haiti
+HUN,11.2,Hungary
+IBD,3.95,IBRD
+IBT,3.04,IBRD
+IDA,0.71,IDA
+IDB,0.79,IDA
+IDN,2.37,Indonesia
+IDX,0.67,IDA
+IMN,42.47,Isle of Man
+IND,1.3,India
+IRL,54.28,Ireland
+IRN,2.5,Iran
+IRQ,2.92,Iraq
+ISL,41.37,Iceland
+ISR,26.05,Israel
+ITA,19.42,Italy
+JAM,3.73,Jamaica
+JOR,2.22,Jordan
+JPN,15.62,Japan
+KAZ,6.81,Kazakhstan
+KEN,1.03,Kenya
+KGZ,1.16,Kyrgyzstan
+KHM,1.26,Cambodia
+KIR,1.1,Kiribati
+KNA,11.52,Saint Kitts and Nevis
+KOR,17.42,South Korea
+KWT,15.73,Kuwait
+LAC,4.99,Latin America & Caribbean
+LAO,1.02,Laos
+LBN,1.67,Lebanon
+LBR,0.41,Liberia
+LBY,3.16,Libya
+LCA,6.82,Saint Lucia
+LCN,5.16,Latin America
+LDC,0.62,Least developed countries
+LIC,0.36,Low income
+LIE,99.41,Liechtenstein
+LKA,2.17,Sri Lanka
+LMC,1.22,Lower middle income
+LMY,2.89,Lower middle income
+LSO,0.47,Lesotho
+LTE,6.19,Lithuania
+LTU,14.13,Lithuania
+LUX,66.24,Luxembourg
+LVA,11.25,Latvia
+MAC,34.62,Macao
+MAF,10.42,Saint Martin
+MAR,2.0,Morocco
+MCO,138.46,Monaco
+MDA,3.64,Moldova
+MDG,0.26,Madagascar
+MDV,6.43,Maldives
+MEA,3.01,Middle East & North Africa
+MEX,6.82,Mexico
+MHL,3.71,Marshall Islands
+MIC,3.15,Middle income
+MKD,4.47,North Macedonia
+MLI,0.53,Mali
+MLT,21.11,Malta
+MMR,0.65,Myanmar
+MNA,1.43,Middle East & North Africa
+MNE,6.38,Montenegro
+MNG,3.25,Mongolia
+MNP,11.44,Northern Mariana Islands
+MOZ,0.32,Mozambique
+MRT,1.01,Mauritania
+MUS,5.76,Mauritius
+MWI,0.25,Malawi
+MYS,5.71,Malaysia
+NAC,39.07,North America
+NAM,2.12,Namibia
+NCL,14.04,New Caledonia
+NER,0.35,Niger
+NGA,0.52,Nigeria
+NIC,1.37,Nicaragua
+NLD,32.46,Netherlands
+NOR,41.72,Norway
+NPL,0.7,Nepal
+NRU,6.54,Nauru
+NZL,23.66,New Zealand
+OED,23.23,OECD members
+OMN,9.75,Oman
+OSS,7.74,Other small states
+PAK,0.71,Pakistan
+PAN,9.21,Panama
+PER,4.06,Peru
+PHL,1.92,Philippines
+PLW,7.51,Palau
+PNG,1.45,Papua New Guinea
+POL,12.07,Poland
+PRE,0.66,Pre
+PRI,18.92,Puerto Rico
+PRT,14.08,Portugal
+PRY,3.08,Paraguay
+PSE,1.25,Palestine
+PSS,2.14,Pacific Island small states
+PST,26.75,Pacific Island small states
+PYF,10.79,French Polynesia
+QAT,36.87,Qatar
+ROU,9.65,Romania
+RUS,7.16,Russia
+RWA,0.48,Rwanda
+SAS,1.29,South Asia
+SAU,16.89,Saudi Arabia
+SDN,0.47,Sudan
+SEN,0.85,Senegal
+SGP,43.59,Singapore
+SLB,0.93,Solomon Islands
+SLE,0.39,Sierra Leone
+SLV,2.68,El Salvador
+SMR,28.79,San Marino
+SOM,0.3,Somalia
+SRB,6.58,Serbia
+SSA,0.76,Sub-Saharan Africa
+SSD,0.52,South Sudan
+SSF,0.74,Sub-Saharan Africa
+SST,7.4,Small states
+STP,1.68,Sao Tome and Principe
+SUR,3.35,Suriname
+SVK,12.5,Slovakia
+SVN,16.49,Slovenia
+SWE,27.46,Sweden
+SWZ,1.88,Eswatini
+SXM,19.94,Sint Maarten
+SYC,8.59,Seychelles
+SYR,0.51,Syria
+TCA,18.03,Turks and Caicos Islands
+TCD,0.46,Chad
+TEA,5.05,Turkey
+TEC,6.41,Turkey
+TGO,0.54,Togo
+THA,3.53,Thailand
+TJK,0.64,Tajikistan
+TKM,3.3,Turkmenistan
+TLA,5.04,Timor-Leste
+TLS,0.64,Timor-Leste
+TMN,1.43,Turkmenistan
+TON,2.72,Tonga
+TSA,1.29,Tonga
+TSS,0.74,Tonga
+TTO,9.01,Trinidad and Tobago
+TUN,2.01,Tunisia
+TUR,7.64,Turkey
+TUV,3.05,Tuvalu
+TZA,0.57,Tanzania
+UGA,0.52,Uganda
+UKR,2.59,Ukraine
+UMC,5.29,Upper middle income
+URY,11.49,Uruguay
+USA,40.64,United States
+UZB,1.52,Uzbekistan
+VCT,5.53,Saint Vincent and the Grenadines
+VEN,2.03,Venezuela
+VIR,21.31,United States Virgin Islands
+VNM,2.27,Vietnam
+VUT,1.64,Vanuatu
+WLD,6.55,World
+WSM,2.59,Samoa
+XKX,3.38,Kosovo
+YEM,0.3,Yemen
+ZAF,3.01,South Africa
+ZMB,0.57,Zambia
+ZWE,1.2,Zimbabwe
