@@ -1,9 +1,9 @@
-name: Run Scraper Every 5 Hours
+name: Scrape Streaming Services Every 3 Hours
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */5 * * *"
+    - cron: "0 */3 * * *"
 
 permissions:
   contents: write
@@ -25,16 +25,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install pandas requests beautifulsoup4
+          pip install -r requirements.txt
 
       - name: Run scraper
-        run: python main.py
+        run: python streaming_services_scrapper.py
 
       - name: Commit and push updated CSV
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/all_platforms_latest.csv
-          git commit -m "Auto-update scraped data" || echo "No changes to commit"
-          git push origin ahmad
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add data/streaming_services.csv
+          git commit -m "Updated Streaming Services data (3-hour intervals)"
+          git push origin main
