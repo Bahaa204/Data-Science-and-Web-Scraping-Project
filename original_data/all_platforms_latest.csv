@@ -1,0 +1,838 @@
+platform,region,currency,price,plan_type,scraped_at
+Spotify,Kuwait,US$,0,Individual,2026-03-31 22:18:53
+Spotify,Kuwait,US$,0,Student,2026-03-31 22:18:53
+Spotify,Kuwait,US$,7.49,Duo,2026-03-31 22:18:53
+Spotify,Kuwait,US$,9.49,Family,2026-03-31 22:18:53
+Apple TV+,Kuwait,$,12.99,Apple TV+ Monthly,2026-03-31 22:19:01
+Shahid,Kuwait,,,General,2026-03-31 22:19:08
+Netflix,Kuwait,$,8.99,Basic,2026-03-31 22:19:20
+Netflix,Kuwait,$,11.99,Standard,2026-03-31 22:19:20
+Netflix,Kuwait,$,17.99,Premium,2026-03-31 22:19:20
+Apple TV+,Tunisia,$,12.99,Apple TV+ Monthly,2026-03-31 22:18:57
+Shahid,Tunisia,,,General,2026-03-31 22:19:04
+Netflix,Tunisia,$,3.99,Basic,2026-03-31 22:19:22
+Netflix,Tunisia,$,7.99,Standard,2026-03-31 22:19:22
+Netflix,Tunisia,$,9.99,Premium,2026-03-31 22:19:22
+Apple TV+,United Arab Emirates,AED,27.99,Apple TV+ Monthly,2026-03-31 22:18:57
+Shahid,United Arab Emirates,,,General,2026-03-31 22:19:09
+Apple TV+,Morocco,$,12.99,Apple TV+ Monthly,2026-03-31 22:18:57
+Shahid,Morocco,,,General,2026-03-31 22:19:04
+Spotify,Canada,$,0,Individual,2026-03-31 22:18:53
+Spotify,Canada,$,0,Student,2026-03-31 22:18:53
+Spotify,Canada,$,17.89,Duo,2026-03-31 22:18:53
+Spotify,Canada,$,20.99,Family,2026-03-31 22:18:53
+Apple TV+,Canada,$,14.99,Apple TV+ Monthly,2026-03-31 22:19:02
+Shahid,Canada,,,General,2026-03-31 22:19:07
+Netflix,Canada,,7.99,Standard with ads,2026-03-31 22:19:24
+Netflix,Canada,,18.99,Standard,2026-03-31 22:19:24
+Netflix,Canada,,23.99,Premium,2026-03-31 22:19:24
+Apple TV+,Algeria,$,12.99,Apple TV+ Monthly,2026-03-31 22:18:57
+Shahid,Algeria,,,General,2026-03-31 22:19:02
+Netflix,Algeria,$,3.99,Basic,2026-03-31 22:19:16
+Netflix,Algeria,$,7.99,Standard,2026-03-31 22:19:16
+Netflix,Algeria,$,9.99,Premium,2026-03-31 22:19:16
+Spotify,Egypt,EGP,0,Individual,2026-03-31 22:18:53
+Spotify,Egypt,EGP,0,Student,2026-03-31 22:18:53
+Spotify,Egypt,EGP,109,Duo,2026-03-31 22:18:53
+Spotify,Egypt,EGP,139,Family,2026-03-31 22:18:53
+Apple TV+,Egypt,EGP,119.99,Apple TV+ Monthly,2026-03-31 22:19:02
+Shahid,Egypt,,,General,2026-03-31 22:19:06
+Spotify,Jordan,US$,0,Individual,2026-03-31 22:18:53
+Spotify,Jordan,US$,0,Student,2026-03-31 22:18:53
+Spotify,Jordan,US$,7.49,Duo,2026-03-31 22:18:53
+Spotify,Jordan,US$,9.49,Family,2026-03-31 22:18:53
+Apple TV+,Jordan,US$,6.99,Apple TV+ Monthly,2026-03-31 22:19:01
+Shahid,Jordan,,,General,2026-03-31 22:19:06
+Netflix,Jordan,$,3.99,Basic,2026-03-31 22:19:24
+Netflix,Jordan,$,7.99,Standard,2026-03-31 22:19:24
+Netflix,Jordan,$,9.99,Premium,2026-03-31 22:19:24
+Spotify,Australia,$,0,Individual,2026-03-31 22:18:53
+Spotify,Australia,$,0,Student,2026-03-31 22:18:53
+Spotify,Australia,$,22.99,Duo,2026-03-31 22:18:53
+Spotify,Australia,$,27.99,Family,2026-03-31 22:18:53
+Apple TV+,Australia,$,15.99,Apple TV+ Monthly,2026-03-31 22:19:02
+Shahid,Australia,,,General,2026-03-31 22:19:09
+Spotify,New Zealand,$,0,Individual,2026-03-31 22:18:53
+Spotify,New Zealand,$,0,Student,2026-03-31 22:18:53
+Spotify,New Zealand,$,25.49,Duo,2026-03-31 22:18:53
+Spotify,New Zealand,$,29.99,Family,2026-03-31 22:18:53
+Apple TV+,New Zealand,$,17.99,Apple TV+ Monthly,2026-03-31 22:19:02
+Shahid,New Zealand,,,General,2026-03-31 22:19:08
+Spotify,United Kingdom,£,0,Individual,2026-03-31 22:18:53
+Spotify,United Kingdom,£,0,Student,2026-03-31 22:18:53
+Spotify,United Kingdom,£,17.99,Duo,2026-03-31 22:18:53
+Spotify,United Kingdom,£,21.99,Family,2026-03-31 22:18:53
+Apple TV+,United Kingdom,$,12.99,Apple TV+ Monthly,2026-03-31 22:19:02
+Shahid,United Kingdom,,,General,2026-03-31 22:19:09
+Netflix,United Kingdom,$,3.99,Basic,2026-03-31 22:19:28
+Netflix,United Kingdom,$,7.99,Standard,2026-03-31 22:19:28
+Netflix,United Kingdom,$,9.99,Premium,2026-03-31 22:19:28
+Spotify,United States,$,0,Individual,2026-03-31 22:18:53
+Spotify,United States,$,0,Student,2026-03-31 22:18:53
+Spotify,United States,$,18.99,Duo,2026-03-31 22:18:53
+Spotify,United States,$,21.99,Family,2026-03-31 22:18:53
+Apple TV+,United States,$,12.99,Apple TV+ Monthly,2026-03-31 22:18:57
+Shahid,United States,,,General,2026-03-31 22:19:13
+Netflix,United States,$,8.99,Standard with ads,2026-03-31 22:19:28
+Netflix,United States,$,19.99,Standard,2026-03-31 22:19:28
+Netflix,United States,$,26.99,Premium,2026-03-31 22:19:28
+Spotify,Lebanon,US$,0,Individual,2026-03-31 22:18:53
+Spotify,Lebanon,US$,0,Student,2026-03-31 22:18:53
+Spotify,Lebanon,US$,7.49,Duo,2026-03-31 22:18:53
+Spotify,Lebanon,US$,9.49,Family,2026-03-31 22:18:53
+Apple TV+,Lebanon,US$,6.99,Apple TV+ Monthly,2026-03-31 22:18:59
+Shahid,Lebanon,,,General,2026-03-31 22:19:03
+Netflix,Lebanon,$,3.99,Basic,2026-03-31 22:19:29
+Netflix,Lebanon,$,7.99,Standard,2026-03-31 22:19:29
+Netflix,Lebanon,$,9.99,Premium,2026-03-31 22:19:29
+Spotify,Bahrain,US$,0,Individual,2026-03-31 22:18:53
+Spotify,Bahrain,US$,0,Student,2026-03-31 22:18:53
+Spotify,Bahrain,US$,7.49,Duo,2026-03-31 22:18:53
+Spotify,Bahrain,US$,9.49,Family,2026-03-31 22:18:53
+Apple TV+,Bahrain,US$,7.99,Apple TV+ Monthly,2026-03-31 22:18:57
+Shahid,Bahrain,,,General,2026-03-31 22:19:04
+Netflix,Bahrain,$,7.99,Basic,2026-03-31 22:19:25
+Netflix,Bahrain,$,10.49,Standard,2026-03-31 22:19:25
+Netflix,Bahrain,$,15.79,Premium,2026-03-31 22:19:25
+Apple TV+,Saudi Arabia,SAR,29.99,Apple TV+ Monthly,2026-03-31 22:19:01
+Shahid,Saudi Arabia,,,General,2026-03-31 22:19:06
+Spotify,Ireland,€,0,Individual,2026-03-31 22:18:53
+Spotify,Ireland,€,0,Student,2026-03-31 22:18:53
+Spotify,Ireland,€,16.99,Duo,2026-03-31 22:18:53
+Spotify,Ireland,€,19.99,Family,2026-03-31 22:18:53
+Apple TV+,Ireland,€,9.99,Apple TV+ Monthly,2026-03-31 22:18:57
+Shahid,Ireland,,,General,2026-03-31 22:19:14
+Netflix,Ireland,,10.99,Basic,2026-03-31 22:19:32
+Netflix,Ireland,,16.99,Standard,2026-03-31 22:19:32
+Netflix,Ireland,,23.99,Premium,2026-03-31 22:19:32
+Spotify,Israel,₪,0,Individual,2026-03-31 22:18:53
+Spotify,Israel,₪,0,Student,2026-03-31 22:18:53
+Spotify,Israel,₪,33.90,Duo,2026-03-31 22:18:53
+Spotify,Israel,₪,39.90,Family,2026-03-31 22:18:53
+Shahid,Israel,,,General,2026-03-31 22:19:19
+Netflix,Israel,,32.90,Basic,2026-03-31 22:19:33
+Netflix,Israel,,54.90,Standard,2026-03-31 22:19:33
+Netflix,Israel,,69.90,Premium,2026-03-31 22:19:33
+Spotify,Qatar,,,Individual,2026-03-31 22:18:53
+Spotify,Qatar,,,Student,2026-03-31 22:18:53
+Spotify,Qatar,,,Duo,2026-03-31 22:18:53
+Spotify,Qatar,,,Family,2026-03-31 22:18:53
+Shahid,Qatar,,,General,2026-03-31 22:19:15
+Netflix,Qatar,$,8.99,Basic,2026-03-31 22:19:30
+Netflix,Qatar,$,11.99,Standard,2026-03-31 22:19:30
+Netflix,Qatar,$,17.99,Premium,2026-03-31 22:19:30
+Spotify,Oman,US$,0,Individual,2026-03-31 22:18:53
+Spotify,Oman,US$,0,Student,2026-03-31 22:18:53
+Spotify,Oman,US$,7.49,Duo,2026-03-31 22:18:53
+Spotify,Oman,US$,9.49,Family,2026-03-31 22:18:53
+Apple TV+,Oman,US$,6.99,Apple TV+ Monthly,2026-03-31 22:19:02
+Shahid,Oman,,,General,2026-03-31 22:19:22
+Netflix,Oman,$,8.39,Basic,2026-03-31 22:19:44
+Netflix,Oman,$,10.49,Standard,2026-03-31 22:19:44
+Netflix,Oman,$,15.79,Premium,2026-03-31 22:19:44
+Spotify,Bangladesh,,,Individual,2026-03-31 22:19:25
+Spotify,Bangladesh,,,Student,2026-03-31 22:19:25
+Spotify,Bangladesh,,,Duo,2026-03-31 22:19:25
+Spotify,Bangladesh,,,Family,2026-03-31 22:19:25
+Apple TV+,Bangladesh,$,12.99,Apple TV+ Monthly,2026-03-31 22:19:29
+Shahid,Bangladesh,,,General,2026-03-31 22:19:38
+Netflix,Bangladesh,$,2.99,Mobile,2026-03-31 22:19:56
+Netflix,Bangladesh,$,3.99,Basic,2026-03-31 22:19:56
+Netflix,Bangladesh,$,7.99,Standard,2026-03-31 22:19:56
+Netflix,Bangladesh,$,9.99,Premium,2026-03-31 22:19:56
+Apple TV+,Bhutan,$,12.99,Apple TV+ Monthly,2026-03-31 22:19:30
+Shahid,Bhutan,,,General,2026-03-31 22:19:39
+Netflix,Bhutan,$,2.99,Mobile,2026-03-31 22:19:54
+Netflix,Bhutan,$,3.99,Basic,2026-03-31 22:19:54
+Netflix,Bhutan,$,7.99,Standard,2026-03-31 22:19:54
+Netflix,Bhutan,$,9.99,Premium,2026-03-31 22:19:54
+Apple TV+,Cambodia,$,"7,99",Apple TV+ Monthly,2026-03-31 22:19:37
+Shahid,Cambodia,,,General,2026-03-31 22:19:43
+Netflix,Cambodia,$,2.99,Mobile,2026-03-31 22:19:57
+Netflix,Cambodia,$,3.99,Basic,2026-03-31 22:19:57
+Netflix,Cambodia,$,7.99,Standard,2026-03-31 22:19:57
+Netflix,Cambodia,$,9.99,Premium,2026-03-31 22:19:57
+Spotify,Nepal,US$,0,Individual,2026-03-31 22:19:27
+Spotify,Nepal,US$,0,Student,2026-03-31 22:19:27
+Spotify,Nepal,US$,4.49,Duo,2026-03-31 22:19:27
+Spotify,Nepal,US$,5.79,Family,2026-03-31 22:19:27
+Apple TV+,Nepal,$,12.99,Apple TV+ Monthly,2026-03-31 22:19:32
+Shahid,Nepal,,,General,2026-03-31 22:19:37
+Netflix,Nepal,$,2.99,Mobile,2026-03-31 22:19:54
+Netflix,Nepal,$,3.99,Basic,2026-03-31 22:19:54
+Netflix,Nepal,$,7.99,Standard,2026-03-31 22:19:54
+Netflix,Nepal,$,9.99,Premium,2026-03-31 22:19:54
+Apple TV+,Laos,US$,"7,99",Apple TV+ Monthly,2026-03-31 22:19:38
+Shahid,Laos,,,General,2026-03-31 22:19:43
+Netflix,Laos,$,2.99,Mobile,2026-03-31 22:19:59
+Netflix,Laos,$,3.99,Basic,2026-03-31 22:19:59
+Netflix,Laos,$,7.99,Standard,2026-03-31 22:19:59
+Netflix,Laos,$,9.99,Premium,2026-03-31 22:19:59
+Shahid,South Africa,,,General,2026-03-31 22:19:33
+Spotify,Sri Lanka,KR,0,Individual,2026-03-31 22:19:26
+Spotify,Sri Lanka,KR,0,Student,2026-03-31 22:19:26
+Spotify,Sri Lanka,KR,969,Duo,2026-03-31 22:19:26
+Spotify,Sri Lanka,KR,"1,26",Family,2026-03-31 22:19:26
+Apple TV+,Sri Lanka,US$,6.99,Apple TV+ Monthly,2026-03-31 22:19:36
+Shahid,Sri Lanka,,,General,2026-03-31 22:19:42
+Netflix,Sri Lanka,$,2.99,Mobile,2026-03-31 22:20:02
+Netflix,Sri Lanka,$,3.99,Basic,2026-03-31 22:20:02
+Netflix,Sri Lanka,$,7.99,Standard,2026-03-31 22:20:02
+Netflix,Sri Lanka,$,9.99,Premium,2026-03-31 22:20:02
+Spotify,Pakistan,,,Individual,2026-03-31 22:19:24
+Spotify,Pakistan,,,Student,2026-03-31 22:19:24
+Spotify,Pakistan,,,Duo,2026-03-31 22:19:24
+Spotify,Pakistan,,,Family,2026-03-31 22:19:24
+Apple TV+,Pakistan,$,12.99,Apple TV+ Monthly,2026-03-31 22:19:28
+Shahid,Pakistan,,,General,2026-03-31 22:19:39
+Apple TV+,India,₹,99,Apple TV+ Monthly,2026-03-31 22:19:30
+Shahid,India,,,General,2026-03-31 22:19:43
+Spotify,Singapore,$,0,Individual,2026-03-31 22:19:28
+Spotify,Singapore,$,0,Student,2026-03-31 22:19:28
+Spotify,Singapore,$,16.98,Duo,2026-03-31 22:19:28
+Spotify,Singapore,$,20.98,Family,2026-03-31 22:19:28
+Apple TV+,Singapore,$,13.98,Apple TV+ Monthly,2026-03-31 22:19:37
+Shahid,Singapore,,,General,2026-03-31 22:19:42
+Netflix,Singapore,,15.98,Basic,2026-03-31 22:20:02
+Netflix,Singapore,,22.98,Standard,2026-03-31 22:20:02
+Netflix,Singapore,,29.98,Premium,2026-03-31 22:20:02
+Apple TV+,Indonesia,Rp,99.00,Apple TV+ Monthly,2026-03-31 22:19:37
+Shahid,Indonesia,,,General,2026-03-31 22:19:44
+Apple TV+,Myanmar,$,12.99,Apple TV+ Monthly,2026-03-31 22:19:39
+Shahid,Myanmar,,,General,2026-03-31 22:19:44
+Netflix,Myanmar,$,2.99,Mobile,2026-03-31 22:20:01
+Netflix,Myanmar,$,3.99,Basic,2026-03-31 22:20:01
+Netflix,Myanmar,$,7.99,Standard,2026-03-31 22:20:01
+Netflix,Myanmar,$,9.99,Premium,2026-03-31 22:20:01
+Spotify,Philippines,₱,169,Individual,2026-03-31 22:19:29
+Spotify,Philippines,₱,85,Student,2026-03-31 22:19:29
+Spotify,Philippines,₱,229,Duo,2026-03-31 22:19:29
+Spotify,Philippines,₱,279,Family,2026-03-31 22:19:29
+Apple TV+,Philippines,₱,369,Apple TV+ Monthly,2026-03-31 22:19:36
+Shahid,Philippines,,,General,2026-03-31 22:19:44
+Spotify,Vietnam,,,Individual,2026-03-31 22:19:34
+Spotify,Vietnam,,,Student,2026-03-31 22:19:34
+Shahid,Vietnam,,,General,2026-03-31 22:19:57
+Spotify,Malaysia,RM,17.50,Individual,2026-03-31 22:19:29
+Spotify,Malaysia,RM,9.50,Student,2026-03-31 22:19:29
+Spotify,Malaysia,RM,24.50,Duo,2026-03-31 22:19:29
+Spotify,Malaysia,RM,27.90,Family,2026-03-31 22:19:29
+Apple TV+,Malaysia,RM,29.90,Apple TV+ Monthly,2026-03-31 22:19:52
+Shahid,Malaysia,,,General,2026-03-31 22:19:59
+Netflix,Malaysia,,18.90,Mobile,2026-03-31 22:20:11
+Netflix,Malaysia,,29.90,Basic,2026-03-31 22:20:11
+Netflix,Malaysia,,49.90,Standard,2026-03-31 22:20:11
+Netflix,Malaysia,,62.90,Premium,2026-03-31 22:20:11
+Spotify,Brunei,US$,0,Individual,2026-03-31 22:19:36
+Spotify,Brunei,US$,0,Student,2026-03-31 22:19:36
+Spotify,Brunei,US$,10.49,Duo,2026-03-31 22:19:36
+Spotify,Brunei,US$,12.99,Family,2026-03-31 22:19:36
+Shahid,Brunei,,,General,2026-03-31 22:20:00
+Netflix,Brunei,$,6.49,Mobile,2026-03-31 22:20:13
+Netflix,Brunei,$,10.99,Basic,2026-03-31 22:20:13
+Netflix,Brunei,$,13.99,Standard,2026-03-31 22:20:13
+Netflix,Brunei,$,17.99,Premium,2026-03-31 22:20:13
+Spotify,Maldives,US$,0,Individual,2026-03-31 22:19:27
+Spotify,Maldives,US$,0,Student,2026-03-31 22:19:27
+Spotify,Maldives,US$,7.49,Duo,2026-03-31 22:19:27
+Spotify,Maldives,US$,9.49,Family,2026-03-31 22:19:27
+Apple TV+,Maldives,$,12.99,Apple TV+ Monthly,2026-03-31 22:19:51
+Shahid,Maldives,,,General,2026-03-31 22:19:57
+Netflix,Maldives,$,6.49,Mobile,2026-03-31 22:20:12
+Netflix,Maldives,$,10.99,Basic,2026-03-31 22:20:12
+Netflix,Maldives,$,13.99,Standard,2026-03-31 22:20:12
+Netflix,Maldives,$,17.99,Premium,2026-03-31 22:20:12
+Apple TV+,Japan,¥,900,Apple TV+ Monthly,2026-03-31 22:19:48
+Shahid,Japan,,,General,2026-03-31 22:19:56
+Spotify,Thailand,,,Individual,2026-03-31 22:19:32
+Spotify,Thailand,,,Student,2026-03-31 22:19:32
+Spotify,Thailand,,,Duo,2026-03-31 22:19:32
+Spotify,Thailand,,,Family,2026-03-31 22:19:32
+Shahid,Thailand,,,General,2026-03-31 22:19:55
+Spotify,South Korea,₩,0,Individual,2026-03-31 22:19:51
+Spotify,South Korea,₩,"6,00",Student,2026-03-31 22:19:51
+Spotify,South Korea,₩,"16,35",Duo,2026-03-31 22:19:51
+Apple TV+,South Korea,₩,"6,50",Apple TV+ Monthly,2026-03-31 22:19:56
+Shahid,South Korea,,,General,2026-03-31 22:20:05
+Apple TV+,Taiwan,$,250.00,Apple TV+ Monthly,2026-03-31 22:20:02
+Shahid,Taiwan,,,General,2026-03-31 22:20:11
+Spotify,Hong Kong,$,0,Individual,2026-03-31 22:19:59
+Spotify,Hong Kong,$,0,Student,2026-03-31 22:19:59
+Spotify,Hong Kong,$,98,Duo,2026-03-31 22:19:59
+Spotify,Hong Kong,$,128,Family,2026-03-31 22:19:59
+Apple TV+,Hong Kong,$,68.00,Apple TV+ Monthly,2026-03-31 22:20:02
+Shahid,Hong Kong,,,General,2026-03-31 22:20:08
+Spotify,Kyrgyzstan,US$,0,Individual,2026-03-31 22:20:07
+Spotify,Kyrgyzstan,US$,0,Student,2026-03-31 22:20:07
+Spotify,Kyrgyzstan,US$,7.49,Duo,2026-03-31 22:20:07
+Spotify,Kyrgyzstan,US$,9.49,Family,2026-03-31 22:20:07
+Apple TV+,Kyrgyzstan,$,12.99,Apple TV+ Monthly,2026-03-31 22:20:11
+Shahid,Kyrgyzstan,,,General,2026-03-31 22:20:17
+Netflix,Kyrgyzstan,,7.99,Basic,2026-03-31 22:20:30
+Netflix,Kyrgyzstan,,9.99,Standard,2026-03-31 22:20:30
+Netflix,Kyrgyzstan,,11.99,Premium,2026-03-31 22:20:30
+Apple TV+,Georgia,$,12.99,Apple TV+ Monthly,2026-03-31 22:20:08
+Shahid,Georgia,,,General,2026-03-31 22:20:15
+Netflix,Georgia,,9.39,Basic,2026-03-31 22:20:30
+Netflix,Georgia,,11.79,Standard,2026-03-31 22:20:30
+Netflix,Georgia,,13.99,Premium,2026-03-31 22:20:30
+Spotify,Azerbaijan,US$,0,Individual,2026-03-31 22:20:02
+Spotify,Azerbaijan,US$,0,Student,2026-03-31 22:20:02
+Spotify,Azerbaijan,US$,7.49,Duo,2026-03-31 22:20:02
+Spotify,Azerbaijan,US$,9.49,Family,2026-03-31 22:20:02
+Apple TV+,Azerbaijan,US$,"6,99",Apple TV+ Monthly,2026-03-31 22:20:09
+Shahid,Azerbaijan,,,General,2026-03-31 22:20:16
+Netflix,Azerbaijan,,7.99,Basic,2026-03-31 22:20:30
+Netflix,Azerbaijan,,9.99,Standard,2026-03-31 22:20:30
+Netflix,Azerbaijan,,11.99,Premium,2026-03-31 22:20:30
+Spotify,Kazakhstan,US$,0,Individual,2026-03-31 22:20:01
+Spotify,Kazakhstan,US$,0,Student,2026-03-31 22:20:01
+Spotify,Kazakhstan,US$,6.49,Duo,2026-03-31 22:20:01
+Spotify,Kazakhstan,US$,7.99,Family,2026-03-31 22:20:01
+Apple TV+,Kazakhstan,$,12.99,Apple TV+ Monthly,2026-03-31 22:20:09
+Shahid,Kazakhstan,,,General,2026-03-31 22:20:13
+Netflix,Kazakhstan,,7.99,Basic,2026-03-31 22:20:31
+Netflix,Kazakhstan,,9.99,Standard,2026-03-31 22:20:31
+Netflix,Kazakhstan,,11.99,Premium,2026-03-31 22:20:31
+Apple TV+,Armenia,$,"7,99",Apple TV+ Monthly,2026-03-31 22:20:10
+Shahid,Armenia,,,General,2026-03-31 22:20:15
+Netflix,Armenia,,7.99,Basic,2026-03-31 22:20:34
+Netflix,Armenia,,9.99,Standard,2026-03-31 22:20:34
+Netflix,Armenia,,11.99,Premium,2026-03-31 22:20:34
+Spotify,Tajikistan,US$,0,Individual,2026-03-31 22:20:08
+Spotify,Tajikistan,US$,0,Student,2026-03-31 22:20:08
+Apple TV+,Tajikistan,$,"7,99",Apple TV+ Monthly,2026-03-31 22:20:12
+Shahid,Tajikistan,,,General,2026-03-31 22:20:18
+Netflix,Tajikistan,,9.39,Basic,2026-03-31 22:20:34
+Netflix,Tajikistan,,11.79,Standard,2026-03-31 22:20:34
+Netflix,Tajikistan,,13.99,Premium,2026-03-31 22:20:34
+Apple TV+,Mongolia,$,6.99,Apple TV+ Monthly,2026-03-31 22:20:13
+Shahid,Mongolia,,,General,2026-03-31 22:20:20
+Netflix,Mongolia,$,2.99,Mobile,2026-03-31 22:20:34
+Netflix,Mongolia,$,3.99,Basic,2026-03-31 22:20:34
+Netflix,Mongolia,$,7.99,Standard,2026-03-31 22:20:34
+Netflix,Mongolia,$,9.99,Premium,2026-03-31 22:20:34
+Spotify,Macau,US$,0,Individual,2026-03-31 22:20:00
+Spotify,Macau,US$,0,Student,2026-03-31 22:20:00
+Spotify,Macau,US$,10.49,Duo,2026-03-31 22:20:00
+Spotify,Macau,US$,12.99,Family,2026-03-31 22:20:00
+Apple TV+,Macau,US$,9.99,Apple TV+ Monthly,2026-03-31 22:20:08
+Shahid,Macau,,,General,2026-03-31 22:20:16
+Netflix,Macau,$,7.99,Basic,2026-03-31 22:20:36
+Netflix,Macau,$,9.99,Standard,2026-03-31 22:20:36
+Netflix,Macau,$,11.99,Premium,2026-03-31 22:20:36
+Apple TV+,Uzbekistan,$,12.99,Apple TV+ Monthly,2026-03-31 22:20:09
+Shahid,Uzbekistan,,,General,2026-03-31 22:20:14
+Netflix,Uzbekistan,,7.99,Basic,2026-03-31 22:20:39
+Netflix,Uzbekistan,,9.99,Standard,2026-03-31 22:20:39
+Netflix,Uzbekistan,,11.99,Premium,2026-03-31 22:20:39
+Spotify,Spain,€,0,Individual,2026-03-31 22:20:13
+Spotify,Spain,€,0,Estudiantes,2026-03-31 22:20:13
+Spotify,Spain,€,"16,99",Duo,2026-03-31 22:20:13
+Spotify,Spain,€,"20,99",Familiar,2026-03-31 22:20:13
+Apple TV+,Spain,€,"9,99",Apple TV+ Monthly,2026-03-31 22:20:19
+Shahid,Spain,,,General,2026-03-31 22:20:29
+Netflix,Spain,,6.99,Standard with ads,2026-03-31 22:20:42
+Netflix,Spain,,13.99,Standard,2026-03-31 22:20:42
+Netflix,Spain,,19.99,Premium,2026-03-31 22:20:42
+Spotify,France,€,0,Personnel,2026-03-31 22:20:12
+Spotify,France,€,0,Étudiants,2026-03-31 22:20:12
+Spotify,France,€,"17,20",Duo,2026-03-31 22:20:12
+Spotify,France,€,"21,24",Famille,2026-03-31 22:20:12
+Apple TV+,France,€,"9,99",Apple TV+ Monthly,2026-03-31 22:20:20
+Shahid,France,,,General,2026-03-31 22:20:30
+Netflix,France,,7.99,Standard with ads,2026-03-31 22:20:50
+Netflix,France,,14.99,Standard,2026-03-31 22:20:50
+Netflix,France,,21.99,Premium,2026-03-31 22:20:50
+Shahid,Belgium,,,General,2026-03-31 22:20:41
+Netflix,Belgium,,10.99,Basic,2026-03-31 22:20:54
+Netflix,Belgium,,16.99,Standard,2026-03-31 22:20:54
+Netflix,Belgium,,21.99,Premium,2026-03-31 22:20:54
+Apple TV+,Switzerland,CHF,10.90,Apple TV+ Monthly,2026-03-31 22:20:25
+Shahid,Switzerland,,,General,2026-03-31 22:20:39
+Apple TV+,Luxembourg,€,"9,99",Apple TV+ Monthly,2026-03-31 22:20:29
+Shahid,Luxembourg,,,General,2026-03-31 22:20:41
+Netflix,Luxembourg,,10.99,Basic,2026-03-31 22:20:57
+Netflix,Luxembourg,,16.99,Standard,2026-03-31 22:20:57
+Netflix,Luxembourg,,21.99,Premium,2026-03-31 22:20:57
+Spotify,Norway,kr,0,Individual,2026-03-31 22:20:34
+Spotify,Norway,kr,0,Student,2026-03-31 22:20:34
+Spotify,Norway,kr,189,Duo,2026-03-31 22:20:34
+Spotify,Norway,kr,219,Family,2026-03-31 22:20:34
+Apple TV+,Norway,NOK,"119,00",Apple TV+ Monthly,2026-03-31 22:20:40
+Shahid,Norway,,,General,2026-03-31 22:20:46
+Spotify,Austria,€,0,Individual,2026-03-31 22:20:30
+Spotify,Austria,€,0,Student,2026-03-31 22:20:30
+Spotify,Austria,€,"16,99",Duo,2026-03-31 22:20:30
+Spotify,Austria,€,"20,99",Family,2026-03-31 22:20:30
+Apple TV+,Austria,Kr,6,Apple TV+ Monthly,2026-03-31 22:20:36
+Shahid,Austria,,,General,2026-03-31 22:20:42
+Netflix,Austria,,8.99,Basic,2026-03-31 22:21:01
+Netflix,Austria,,13.99,Standard,2026-03-31 22:21:01
+Netflix,Austria,,19.99,Premium,2026-03-31 22:21:01
+Spotify,Netherlands,€,0,Individual,2026-03-31 22:20:16
+Spotify,Netherlands,€,0,Student,2026-03-31 22:20:16
+Spotify,Netherlands,€,"17,99",Duo,2026-03-31 22:20:16
+Spotify,Netherlands,€,"21,99",Family,2026-03-31 22:20:16
+Apple TV+,Netherlands,€,"9,99",Apple TV+ Monthly,2026-03-31 22:20:30
+Shahid,Netherlands,,,General,2026-03-31 22:20:41
+Netflix,Netherlands,,9.99,Basic,2026-03-31 22:21:01
+Netflix,Netherlands,,15.99,Standard,2026-03-31 22:21:01
+Netflix,Netherlands,,20.99,Premium,2026-03-31 22:21:01
+Spotify,Italy,€,0,Individual,2026-03-31 22:20:16
+Spotify,Italy,€,0,Student,2026-03-31 22:20:16
+Spotify,Italy,€,"16,99",Duo,2026-03-31 22:20:16
+Spotify,Italy,€,"20,99",Family,2026-03-31 22:20:16
+Apple TV+,Italy,€,"9,99",Apple TV+ Monthly,2026-03-31 22:20:29
+Shahid,Italy,,,General,2026-03-31 22:20:47
+Netflix,Italy,,6.99,Standard with ads,2026-03-31 22:21:05
+Netflix,Italy,,13.99,Standard,2026-03-31 22:21:05
+Netflix,Italy,,19.99,Premium,2026-03-31 22:21:05
+Spotify,Portugal,€,0,Individual,2026-03-31 22:20:16
+Spotify,Portugal,€,0,Estudante,2026-03-31 22:20:16
+Spotify,Portugal,€,"11,99",Duo,2026-03-31 22:20:16
+Spotify,Portugal,€,"15,49",Família 4,2026-03-31 22:20:16
+Apple TV+,Portugal,€,"9,99",Apple TV+ Monthly,2026-03-31 22:20:36
+Shahid,Portugal,,,General,2026-03-31 22:20:47
+Netflix,Portugal,,8.99,Basic,2026-03-31 22:21:03
+Netflix,Portugal,,12.99,Standard,2026-03-31 22:21:03
+Netflix,Portugal,,17.99,Premium,2026-03-31 22:21:03
+Apple TV+,Finland,€,"9,99",Apple TV+ Monthly,2026-03-31 22:20:40
+Shahid,Finland,,,General,2026-03-31 22:20:50
+Netflix,Finland,,9.49,Basic,2026-03-31 22:21:04
+Netflix,Finland,,13.99,Standard,2026-03-31 22:21:04
+Netflix,Finland,,17.99,Premium,2026-03-31 22:21:04
+Spotify,Germany,€,0,Individual,2026-03-31 22:20:08
+Spotify,Germany,€,0,Student,2026-03-31 22:20:08
+Spotify,Germany,€,17.99,Duo,2026-03-31 22:20:08
+Spotify,Germany,€,21.99,Family,2026-03-31 22:20:08
+Apple TV+,Germany,€,"9,99",Apple TV+ Monthly,2026-03-31 22:20:34
+Shahid,Germany,,,General,2026-03-31 22:20:46
+Netflix,Germany,,4.99,Standard with ads,2026-03-31 22:21:07
+Netflix,Germany,,13.99,Standard,2026-03-31 22:21:07
+Netflix,Germany,,19.99,Premium,2026-03-31 22:21:07
+Spotify,Sweden,kr,0,Individual,2026-03-31 22:20:30
+Spotify,Sweden,kr,0,Student,2026-03-31 22:20:30
+Spotify,Sweden,kr,189,Duo,2026-03-31 22:20:30
+Spotify,Sweden,kr,219,Family,2026-03-31 22:20:30
+Apple TV+,Sweden,¥,7,Apple TV+ Monthly,2026-03-31 22:20:37
+Shahid,Sweden,,,General,2026-03-31 22:20:43
+Spotify,Iceland,€,0,Individual,2026-03-31 22:20:36
+Spotify,Iceland,€,0,Student,2026-03-31 22:20:36
+Spotify,Iceland,€,18.49,Duo,2026-03-31 22:20:36
+Spotify,Iceland,€,21.99,Family,2026-03-31 22:20:36
+Apple TV+,Iceland,$,12.99,Apple TV+ Monthly,2026-03-31 22:20:42
+Shahid,Iceland,,,General,2026-03-31 22:20:48
+Netflix,Iceland,,9.99,Basic,2026-03-31 22:21:10
+Netflix,Iceland,,14.99,Standard,2026-03-31 22:21:10
+Netflix,Iceland,,20.99,Premium,2026-03-31 22:21:10
+Spotify,Denmark,kr,0,Individual,2026-03-31 22:20:34
+Spotify,Denmark,kr,0,Student,2026-03-31 22:20:34
+Spotify,Denmark,kr,169,Duo,2026-03-31 22:20:34
+Spotify,Denmark,kr,199,Family,2026-03-31 22:20:34
+Apple TV+,Denmark,kr,"79,00",Apple TV+ Monthly,2026-03-31 22:20:40
+Shahid,Denmark,,,General,2026-03-31 22:20:51
+Spotify,Slovakia,€,0,Individual,2026-03-31 22:20:39
+Spotify,Slovakia,€,0,Student,2026-03-31 22:20:39
+Spotify,Slovakia,€,9.99,Duo,2026-03-31 22:20:39
+Spotify,Slovakia,€,11.99,Family 4,2026-03-31 22:20:39
+Apple TV+,Slovakia,$,14.99,Apple TV+ Monthly,2026-03-31 22:20:44
+Shahid,Slovakia,,,General,2026-03-31 22:20:56
+Netflix,Slovakia,,9.49,Basic,2026-03-31 22:21:10
+Netflix,Slovakia,,11.49,Standard,2026-03-31 22:21:10
+Netflix,Slovakia,,13.99,Premium,2026-03-31 22:21:10
+Spotify,Romania,,,Individual,2026-03-31 22:20:45
+Spotify,Romania,,,Student,2026-03-31 22:20:45
+Spotify,Romania,,,Duo,2026-03-31 22:20:45
+Spotify,Romania,,,Family,2026-03-31 22:20:45
+Apple TV+,Romania,$,12.99,Apple TV+ Monthly,2026-03-31 22:20:51
+Shahid,Romania,,,General,2026-03-31 22:20:56
+Netflix,Romania,,5.99,Basic,2026-03-31 22:21:13
+Netflix,Romania,,10.99,Standard,2026-03-31 22:21:13
+Netflix,Romania,,13.99,Premium,2026-03-31 22:21:13
+Shahid,Hungary,,,General,2026-03-31 22:20:54
+Shahid,Czech Republic,,,General,2026-03-31 22:21:02
+Spotify,Poland,,,Individual,2026-03-31 22:20:37
+Spotify,Poland,,,Student,2026-03-31 22:20:37
+Spotify,Poland,,,Duo,2026-03-31 22:20:37
+Spotify,Poland,,,Family,2026-03-31 22:20:37
+Apple TV+,Poland,PLN,"34,99",Apple TV+ Monthly,2026-03-31 22:20:43
+Shahid,Poland,,,General,2026-03-31 22:20:51
+Apple TV+,Greece,$,14.99,Apple TV+ Monthly,2026-03-31 22:20:56
+Shahid,Greece,,,General,2026-03-31 22:21:06
+Netflix,Greece,,8.99,Basic,2026-03-31 22:21:26
+Netflix,Greece,,12.49,Standard,2026-03-31 22:21:26
+Netflix,Greece,,15.99,Premium,2026-03-31 22:21:26
+Spotify,Croatia,€,0,Individual,2026-03-31 22:21:00
+Spotify,Croatia,€,0,Student,2026-03-31 22:21:00
+Spotify,Croatia,€,9.99,Duo,2026-03-31 22:21:00
+Spotify,Croatia,€,12.49,Family,2026-03-31 22:21:00
+Apple TV+,Croatia,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:05
+Shahid,Croatia,,,General,2026-03-31 22:21:11
+Netflix,Croatia,,5.99,Basic,2026-03-31 22:21:27
+Netflix,Croatia,,9.99,Standard,2026-03-31 22:21:27
+Netflix,Croatia,,12.99,Premium,2026-03-31 22:21:27
+Apple TV+,Bosnia and Herzegovina,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:06
+Shahid,Bosnia and Herzegovina,,,General,2026-03-31 22:21:10
+Netflix,Bosnia and Herzegovina,,4.99,Basic,2026-03-31 22:21:31
+Netflix,Bosnia and Herzegovina,,7.99,Standard,2026-03-31 22:21:31
+Netflix,Bosnia and Herzegovina,,9.99,Premium,2026-03-31 22:21:31
+Apple TV+,North Macedonia,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:11
+Shahid,North Macedonia,,,General,2026-03-31 22:21:19
+Netflix,North Macedonia,,4.99,Basic,2026-03-31 22:21:33
+Netflix,North Macedonia,,7.99,Standard,2026-03-31 22:21:33
+Netflix,North Macedonia,,9.99,Premium,2026-03-31 22:21:33
+Spotify,Serbia,€,0,Individual,2026-03-31 22:21:01
+Spotify,Serbia,€,3.29,Student,2026-03-31 22:21:01
+Spotify,Serbia,€,8.49,Duo,2026-03-31 22:21:01
+Spotify,Serbia,€,10.49,Family,2026-03-31 22:21:01
+Apple TV+,Serbia,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:05
+Shahid,Serbia,,,General,2026-03-31 22:21:17
+Netflix,Serbia,,5.99,Basic,2026-03-31 22:21:35
+Netflix,Serbia,,8.99,Standard,2026-03-31 22:21:35
+Netflix,Serbia,,10.99,Premium,2026-03-31 22:21:35
+Shahid,Cyprus,,,General,2026-03-31 22:21:13
+Netflix,Cyprus,,8.99,Basic,2026-03-31 22:21:31
+Netflix,Cyprus,,12.49,Standard,2026-03-31 22:21:31
+Netflix,Cyprus,,15.99,Premium,2026-03-31 22:21:31
+Apple TV+,Albania,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:11
+Shahid,Albania,,,General,2026-03-31 22:21:18
+Netflix,Albania,,4.99,Basic,2026-03-31 22:21:35
+Netflix,Albania,,7.99,Standard,2026-03-31 22:21:35
+Netflix,Albania,,9.99,Premium,2026-03-31 22:21:35
+Spotify,Montenegro,€,0,Individual,2026-03-31 22:21:04
+Spotify,Montenegro,€,0,Student,2026-03-31 22:21:04
+Spotify,Montenegro,€,8.49,Duo,2026-03-31 22:21:04
+Spotify,Montenegro,€,10.49,Family,2026-03-31 22:21:04
+Apple TV+,Montenegro,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:09
+Shahid,Montenegro,,,General,2026-03-31 22:21:13
+Netflix,Montenegro,,4.99,Basic,2026-03-31 22:21:36
+Netflix,Montenegro,,7.99,Standard,2026-03-31 22:21:36
+Netflix,Montenegro,,9.99,Premium,2026-03-31 22:21:36
+Spotify,Bulgaria,€,0,Individual,2026-03-31 22:20:47
+Spotify,Bulgaria,€,0,Student,2026-03-31 22:20:47
+Spotify,Bulgaria,€,7.92,Duo,2026-03-31 22:20:47
+Spotify,Bulgaria,€,9.97,Family,2026-03-31 22:20:47
+Apple TV+,Bulgaria,$,14.99,Apple TV+ Monthly,2026-03-31 22:21:10
+Shahid,Bulgaria,,,General,2026-03-31 22:21:25
+Netflix,Bulgaria,,5.99,Basic,2026-03-31 22:21:38
+Netflix,Bulgaria,,8.99,Standard,2026-03-31 22:21:38
+Netflix,Bulgaria,,10.99,Premium,2026-03-31 22:21:38
+Spotify,Moldova,US$,0,Individual,2026-03-31 22:21:16
+Spotify,Moldova,US$,0,Student,2026-03-31 22:21:16
+Spotify,Moldova,US$,7.49,Duo,2026-03-31 22:21:16
+Spotify,Moldova,US$,9.49,Family,2026-03-31 22:21:16
+Apple TV+,Moldova,US$,"7,99",Apple TV+ Monthly,2026-03-31 22:21:23
+Shahid,Moldova,,,General,2026-03-31 22:21:28
+Netflix,Moldova,,7.99,Basic,2026-03-31 22:21:40
+Netflix,Moldova,,9.99,Standard,2026-03-31 22:21:40
+Netflix,Moldova,,11.99,Premium,2026-03-31 22:21:40
+Spotify,Ukraine,US$,0,Individual,2026-03-31 22:21:13
+Spotify,Ukraine,US$,0,Student,2026-03-31 22:21:13
+Spotify,Ukraine,US$,"6,49",Duo,2026-03-31 22:21:13
+Spotify,Ukraine,US$,"7,99",Family,2026-03-31 22:21:13
+Apple TV+,Ukraine,US$,"4,99",Apple TV+ Monthly,2026-03-31 22:21:22
+Shahid,Ukraine,,,General,2026-03-31 22:21:25
+Netflix,Ukraine,,4.99,Basic,2026-03-31 22:21:42
+Netflix,Ukraine,,7.49,Standard,2026-03-31 22:21:42
+Netflix,Ukraine,,9.99,Premium,2026-03-31 22:21:42
+Spotify,Slovenia,€,0,Individual,2026-03-31 22:21:01
+Spotify,Slovenia,€,0,Student,2026-03-31 22:21:01
+Spotify,Slovenia,€,9.99,Duo,2026-03-31 22:21:01
+Spotify,Slovenia,€,12.49,Family,2026-03-31 22:21:01
+Apple TV+,Slovenia,$,14.99,Apple TV+ Monthly,2026-03-31 22:21:11
+Shahid,Slovenia,,,General,2026-03-31 22:21:23
+Netflix,Slovenia,,5.99,Basic,2026-03-31 22:21:36
+Netflix,Slovenia,,8.99,Standard,2026-03-31 22:21:36
+Netflix,Slovenia,,10.99,Premium,2026-03-31 22:21:36
+Apple TV+,Mexico,$,169.00,Apple TV+ Monthly,2026-03-31 22:21:23
+Shahid,Mexico,,,General,2026-03-31 22:21:27
+Shahid,Malta,,,General,2026-03-31 22:21:28
+Netflix,Malta,,8.99,Basic,2026-03-31 22:21:42
+Netflix,Malta,,13.99,Standard,2026-03-31 22:21:42
+Netflix,Malta,,19.99,Premium,2026-03-31 22:21:42
+Spotify,Belarus,US$,0,Individual,2026-03-31 22:21:13
+Spotify,Belarus,US$,0,Student,2026-03-31 22:21:13
+Spotify,Belarus,US$,7.49,Duo,2026-03-31 22:21:13
+Spotify,Belarus,US$,9.49,Family,2026-03-31 22:21:13
+Apple TV+,Belarus,$,"7,99",Apple TV+ Monthly,2026-03-31 22:21:28
+Shahid,Belarus,,,General,2026-03-31 22:21:33
+Netflix,Belarus,,7.99,Basic,2026-03-31 22:21:46
+Netflix,Belarus,,9.99,Standard,2026-03-31 22:21:46
+Netflix,Belarus,,11.99,Premium,2026-03-31 22:21:46
+Apple TV+,Chile,$,4.99,Apple TV+ Monthly,2026-03-31 22:21:29
+Shahid,Chile,,,General,2026-03-31 22:21:35
+Spotify,Estonia,€,11.99,Individual,2026-03-31 22:21:10
+Spotify,Estonia,€,6.49,Student,2026-03-31 22:21:10
+Spotify,Estonia,€,15.99,Duo,2026-03-31 22:21:10
+Spotify,Estonia,€,19.99,Family,2026-03-31 22:21:10
+Apple TV+,Estonia,$,14.99,Apple TV+ Monthly,2026-03-31 22:21:16
+Shahid,Estonia,,,General,2026-03-31 22:21:32
+Netflix,Estonia,,7.99,Basic,2026-03-31 22:21:47
+Netflix,Estonia,,9.99,Standard,2026-03-31 22:21:47
+Netflix,Estonia,,11.99,Premium,2026-03-31 22:21:47
+Spotify,Latvia,€,0,Individual,2026-03-31 22:21:10
+Spotify,Latvia,€,0,Student,2026-03-31 22:21:10
+Spotify,Latvia,€,15.99,Duo,2026-03-31 22:21:10
+Spotify,Latvia,€,19.99,Family,2026-03-31 22:21:10
+Apple TV+,Latvia,$,14.99,Apple TV+ Monthly,2026-03-31 22:21:16
+Shahid,Latvia,,,General,2026-03-31 22:21:37
+Netflix,Latvia,,7.99,Basic,2026-03-31 22:21:49
+Netflix,Latvia,,9.99,Standard,2026-03-31 22:21:49
+Netflix,Latvia,,11.99,Premium,2026-03-31 22:21:49
+Apple TV+,Argentina,US$,"6,99",Apple TV+ Monthly,2026-03-31 22:21:24
+Shahid,Argentina,,,General,2026-03-31 22:21:31
+Spotify,Lithuania,€,0,Individual,2026-03-31 22:21:12
+Spotify,Lithuania,€,0,Student,2026-03-31 22:21:12
+Spotify,Lithuania,€,11.99,Duo,2026-03-31 22:21:12
+Spotify,Lithuania,€,14.99,Family,2026-03-31 22:21:12
+Apple TV+,Lithuania,$,14.99,Apple TV+ Monthly,2026-03-31 22:21:18
+Shahid,Lithuania,,,General,2026-03-31 22:21:33
+Netflix,Lithuania,,8.99,Basic,2026-03-31 22:21:51
+Netflix,Lithuania,,10.99,Standard,2026-03-31 22:21:51
+Netflix,Lithuania,,13.99,Premium,2026-03-31 22:21:51
+Spotify,Colombia,$,0,Individual,2026-03-31 22:21:30
+Spotify,Colombia,$,0,Estudiantes,2026-03-31 22:21:30
+Spotify,Colombia,$,24.50,Duo,2026-03-31 22:21:30
+Spotify,Colombia,$,30.50,Familiar,2026-03-31 22:21:30
+Apple TV+,Colombia,$,29.90,Apple TV+ Monthly,2026-03-31 22:21:38
+Shahid,Colombia,,,General,2026-03-31 22:21:42
+Apple TV+,Ecuador,$,"6,99",Apple TV+ Monthly,2026-03-31 22:21:38
+Shahid,Ecuador,,,General,2026-03-31 22:21:44
+Netflix,Ecuador,$,5.99,Basic,2026-03-31 22:21:54
+Netflix,Ecuador,$,8.99,Standard,2026-03-31 22:21:54
+Netflix,Ecuador,$,11.99,Premium,2026-03-31 22:21:54
+Apple TV+,Uruguay,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:39
+Shahid,Uruguay,,,General,2026-03-31 22:21:45
+Netflix,Uruguay,$,11.99,Basic,2026-03-31 22:21:59
+Netflix,Uruguay,$,16.99,Standard,2026-03-31 22:21:59
+Netflix,Uruguay,$,21.99,Premium,2026-03-31 22:21:59
+Shahid,Paraguay,,,General,2026-03-31 22:21:52
+Netflix,Paraguay,$,3.99,Basic,2026-03-31 22:22:12
+Netflix,Paraguay,$,5.99,Standard,2026-03-31 22:22:12
+Netflix,Paraguay,$,7.99,Premium,2026-03-31 22:22:12
+Shahid,Peru,,,General,2026-03-31 22:21:53
+Apple TV+,Trinidad and Tobago,US$,6.99,Apple TV+ Monthly,2026-03-31 22:21:53
+Shahid,Trinidad and Tobago,,,General,2026-03-31 22:22:00
+Netflix,Trinidad and Tobago,$,10.99,Basic,2026-03-31 22:22:16
+Netflix,Trinidad and Tobago,$,15.49,Standard,2026-03-31 22:22:16
+Netflix,Trinidad and Tobago,$,19.99,Premium,2026-03-31 22:22:16
+Apple TV+,El Salvador,$,6.99,Apple TV+ Monthly,2026-03-31 22:21:49
+Shahid,El Salvador,,,General,2026-03-31 22:21:53
+Netflix,El Salvador,$,6.99,Basic,2026-03-31 22:22:17
+Netflix,El Salvador,$,9.99,Standard,2026-03-31 22:22:17
+Netflix,El Salvador,$,13.99,Premium,2026-03-31 22:22:17
+Apple TV+,Dominican Republic,US$,6.99,Apple TV+ Monthly,2026-03-31 22:21:51
+Shahid,Dominican Republic,,,General,2026-03-31 22:21:55
+Netflix,Dominican Republic,$,6.99,Basic,2026-03-31 22:22:16
+Netflix,Dominican Republic,$,9.99,Standard,2026-03-31 22:22:16
+Netflix,Dominican Republic,$,13.99,Premium,2026-03-31 22:22:16
+Spotify,Venezuela,,,Individual,2026-03-31 22:21:39
+Spotify,Venezuela,,,Estudiantes,2026-03-31 22:21:39
+Spotify,Venezuela,,,Duo,2026-03-31 22:21:39
+Spotify,Venezuela,,,Familiar,2026-03-31 22:21:39
+Shahid,Venezuela,,,General,2026-03-31 22:21:54
+Netflix,Venezuela,$,3.99,Basic,2026-03-31 22:22:19
+Netflix,Venezuela,$,5.99,Standard,2026-03-31 22:22:19
+Netflix,Venezuela,$,7.99,Premium,2026-03-31 22:22:19
+Shahid,Nicaragua,,,General,2026-03-31 22:22:03
+Netflix,Nicaragua,$,4.99,Basic,2026-03-31 22:22:22
+Netflix,Nicaragua,$,6.99,Standard,2026-03-31 22:22:22
+Netflix,Nicaragua,$,9.99,Premium,2026-03-31 22:22:22
+Shahid,Bolivia,,,General,2026-03-31 22:21:55
+Netflix,Bolivia,$,3.99,Basic,2026-03-31 22:22:20
+Netflix,Bolivia,$,5.99,Standard,2026-03-31 22:22:20
+Netflix,Bolivia,$,7.99,Premium,2026-03-31 22:22:20
+Shahid,Guatemala,,,General,2026-03-31 22:21:58
+Netflix,Guatemala,$,6.99,Basic,2026-03-31 22:22:20
+Netflix,Guatemala,$,9.99,Standard,2026-03-31 22:22:20
+Netflix,Guatemala,$,13.99,Premium,2026-03-31 22:22:20
+Apple TV+,Barbados,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:55
+Shahid,Barbados,,,General,2026-03-31 22:22:01
+Netflix,Barbados,$,10.59,Basic,2026-03-31 22:22:24
+Netflix,Barbados,$,15.29,Standard,2026-03-31 22:22:24
+Netflix,Barbados,$,18.79,Premium,2026-03-31 22:22:24
+Apple TV+,Guyana,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:01
+Shahid,Guyana,,,General,2026-03-31 22:22:07
+Netflix,Guyana,$,3.99,Basic,2026-03-31 22:22:23
+Netflix,Guyana,$,5.99,Standard,2026-03-31 22:22:23
+Netflix,Guyana,$,7.99,Premium,2026-03-31 22:22:23
+Apple TV+,Jamaica,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:53
+Shahid,Jamaica,,,General,2026-03-31 22:21:57
+Netflix,Jamaica,$,4.99,Basic,2026-03-31 22:22:26
+Netflix,Jamaica,$,6.99,Standard,2026-03-31 22:22:26
+Netflix,Jamaica,$,9.99,Premium,2026-03-31 22:22:26
+Apple TV+,Bahamas,US$,7.99,Apple TV+ Monthly,2026-03-31 22:21:55
+Shahid,Bahamas,,,General,2026-03-31 22:22:07
+Netflix,Bahamas,$,10.99,Basic,2026-03-31 22:22:28
+Netflix,Bahamas,$,15.49,Standard,2026-03-31 22:22:28
+Netflix,Bahamas,$,19.99,Premium,2026-03-31 22:22:28
+Shahid,Panama,,,General,2026-03-31 22:21:56
+Netflix,Panama,$,5.99,Basic,2026-03-31 22:22:23
+Netflix,Panama,$,9.99,Standard,2026-03-31 22:22:23
+Netflix,Panama,$,13.99,Premium,2026-03-31 22:22:23
+Shahid,Costa Rica,,,General,2026-03-31 22:21:55
+Netflix,Costa Rica,$,9.99,Basic,2026-03-31 22:22:28
+Netflix,Costa Rica,$,14.99,Standard,2026-03-31 22:22:28
+Netflix,Costa Rica,$,17.99,Premium,2026-03-31 22:22:28
+Shahid,Honduras,,,General,2026-03-31 22:22:16
+Netflix,Honduras,$,6.99,Basic,2026-03-31 22:22:28
+Netflix,Honduras,$,9.99,Standard,2026-03-31 22:22:28
+Netflix,Honduras,$,13.99,Premium,2026-03-31 22:22:28
+Spotify,Belize,US$,0,Individual,2026-03-31 22:21:54
+Spotify,Belize,US$,0,Student,2026-03-31 22:21:54
+Spotify,Belize,US$,8.99,Duo,2026-03-31 22:21:54
+Spotify,Belize,US$,11.49,Family,2026-03-31 22:21:54
+Apple TV+,Belize,US$,6.99,Apple TV+ Monthly,2026-03-31 22:21:59
+Shahid,Belize,,,General,2026-03-31 22:22:06
+Netflix,Belize,$,3.99,Basic,2026-03-31 22:22:28
+Netflix,Belize,$,5.99,Standard,2026-03-31 22:22:28
+Netflix,Belize,$,7.99,Premium,2026-03-31 22:22:28
+Apple TV+,Puerto Rico,$,12.99,Apple TV+ Monthly,2026-03-31 22:21:51
+Shahid,Puerto Rico,,,General,2026-03-31 22:21:55
+Netflix,Puerto Rico,$,8.99,Standard with ads,2026-03-31 22:22:33
+Netflix,Puerto Rico,$,19.99,Standard,2026-03-31 22:22:33
+Netflix,Puerto Rico,$,26.99,Premium,2026-03-31 22:22:33
+Spotify,Suriname,US$,0,Individual,2026-03-31 22:21:59
+Spotify,Suriname,US$,0,Student,2026-03-31 22:21:59
+Spotify,Suriname,US$,8.99,Duo,2026-03-31 22:21:59
+Spotify,Suriname,US$,11.49,Family,2026-03-31 22:21:59
+Apple TV+,Suriname,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:08
+Shahid,Suriname,,,General,2026-03-31 22:22:20
+Netflix,Suriname,$,3.99,Basic,2026-03-31 22:22:41
+Netflix,Suriname,$,5.99,Standard,2026-03-31 22:22:41
+Netflix,Suriname,$,7.99,Premium,2026-03-31 22:22:41
+Apple TV+,Ghana,US$,7.99,Apple TV+ Monthly,2026-03-31 22:22:20
+Shahid,Ghana,,,General,2026-03-31 22:22:26
+Netflix,Ghana,$,2.99,Mobile,2026-03-31 22:22:42
+Netflix,Ghana,$,3.99,Basic,2026-03-31 22:22:42
+Netflix,Ghana,$,7.99,Standard,2026-03-31 22:22:42
+Netflix,Ghana,$,9.99,Premium,2026-03-31 22:22:42
+Apple TV+,Zimbabwe,US$,7.99,Apple TV+ Monthly,2026-03-31 22:22:24
+Shahid,Zimbabwe,,,General,2026-03-31 22:22:29
+Netflix,Zimbabwe,$,2.99,Mobile,2026-03-31 22:22:42
+Netflix,Zimbabwe,$,3.99,Basic,2026-03-31 22:22:42
+Netflix,Zimbabwe,$,7.99,Standard,2026-03-31 22:22:42
+Netflix,Zimbabwe,$,9.99,Premium,2026-03-31 22:22:42
+Spotify,Kenya,,,Individual,2026-03-31 22:22:01
+Spotify,Kenya,,,Student,2026-03-31 22:22:01
+Spotify,Kenya,,,Duo,2026-03-31 22:22:01
+Spotify,Kenya,,,Family,2026-03-31 22:22:01
+Apple TV+,Kenya,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:15
+Shahid,Kenya,,,General,2026-03-31 22:22:20
+Spotify,Uganda,,,Individual,2026-03-31 22:22:19
+Spotify,Uganda,,,Student,2026-03-31 22:22:19
+Spotify,Uganda,,,Duo,2026-03-31 22:22:19
+Spotify,Uganda,,,Family,2026-03-31 22:22:19
+Apple TV+,Uganda,US$,7.99,Apple TV+ Monthly,2026-03-31 22:22:25
+Shahid,Uganda,,,General,2026-03-31 22:22:29
+Netflix,Uganda,$,2.99,Mobile,2026-03-31 22:22:45
+Netflix,Uganda,$,3.99,Basic,2026-03-31 22:22:45
+Netflix,Uganda,$,7.99,Standard,2026-03-31 22:22:45
+Netflix,Uganda,$,9.99,Premium,2026-03-31 22:22:45
+Apple TV+,Nigeria,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:21
+Shahid,Nigeria,,,General,2026-03-31 22:22:27
+Spotify,Namibia,US$,0,Individual,2026-03-31 22:22:25
+Spotify,Namibia,US$,0,Student,2026-03-31 22:22:25
+Spotify,Namibia,US$,4.49,Duo,2026-03-31 22:22:25
+Spotify,Namibia,US$,5.79,Family,2026-03-31 22:22:25
+Apple TV+,Namibia,US$,6.99,Apple TV+ Monthly,2026-03-31 22:22:27
+Shahid,Namibia,,,General,2026-03-31 22:22:33
+Netflix,Namibia,$,2.99,Mobile,2026-03-31 22:22:47
+Netflix,Namibia,$,3.99,Basic,2026-03-31 22:22:47
+Netflix,Namibia,$,7.99,Standard,2026-03-31 22:22:47
+Netflix,Namibia,$,9.99,Premium,2026-03-31 22:22:47
+Apple TV+,Zambia,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:27
+Shahid,Zambia,,,General,2026-03-31 22:22:33
+Netflix,Zambia,$,2.99,Mobile,2026-03-31 22:22:47
+Netflix,Zambia,$,3.99,Basic,2026-03-31 22:22:47
+Netflix,Zambia,$,7.99,Standard,2026-03-31 22:22:47
+Netflix,Zambia,$,9.99,Premium,2026-03-31 22:22:47
+Spotify,Tanzania,,,Individual,2026-03-31 22:22:19
+Spotify,Tanzania,,,Student,2026-03-31 22:22:19
+Spotify,Tanzania,,,Duo,2026-03-31 22:22:19
+Spotify,Tanzania,,,Family,2026-03-31 22:22:19
+Apple TV+,Tanzania,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:26
+Shahid,Tanzania,,,General,2026-03-31 22:22:32
+Netflix,Tanzania,$,2.99,Mobile,2026-03-31 22:22:50
+Netflix,Tanzania,$,3.99,Basic,2026-03-31 22:22:50
+Netflix,Tanzania,$,7.99,Standard,2026-03-31 22:22:50
+Netflix,Tanzania,$,9.99,Premium,2026-03-31 22:22:50
+Spotify,Ethiopia,US$,0,Individual,2026-03-31 22:22:26
+Spotify,Ethiopia,US$,0,Student,2026-03-31 22:22:26
+Spotify,Ethiopia,US$,4.49,Duo,2026-03-31 22:22:26
+Spotify,Ethiopia,US$,5.79,Family,2026-03-31 22:22:26
+Apple TV+,Ethiopia,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:32
+Shahid,Ethiopia,,,General,2026-03-31 22:22:38
+Netflix,Ethiopia,$,2.99,Mobile,2026-03-31 22:22:51
+Netflix,Ethiopia,$,3.99,Basic,2026-03-31 22:22:51
+Netflix,Ethiopia,$,7.99,Standard,2026-03-31 22:22:51
+Netflix,Ethiopia,$,9.99,Premium,2026-03-31 22:22:51
+Apple TV+,Botswana,US$,6.99,Apple TV+ Monthly,2026-03-31 22:22:28
+Shahid,Botswana,,,General,2026-03-31 22:22:34
+Netflix,Botswana,$,2.99,Mobile,2026-03-31 22:22:49
+Netflix,Botswana,$,3.99,Basic,2026-03-31 22:22:49
+Netflix,Botswana,$,7.99,Standard,2026-03-31 22:22:49
+Netflix,Botswana,$,9.99,Premium,2026-03-31 22:22:49
+Spotify,Madagascar,US$,0,Individual,2026-03-31 22:22:32
+Spotify,Madagascar,US$,0,Student,2026-03-31 22:22:32
+Spotify,Madagascar,US$,4.49,Duo,2026-03-31 22:22:32
+Spotify,Madagascar,US$,5.79,Family,2026-03-31 22:22:32
+Apple TV+,Madagascar,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:38
+Shahid,Madagascar,,,General,2026-03-31 22:22:42
+Netflix,Madagascar,$,2.99,Mobile,2026-03-31 22:22:53
+Netflix,Madagascar,$,3.99,Basic,2026-03-31 22:22:53
+Netflix,Madagascar,$,7.99,Standard,2026-03-31 22:22:53
+Netflix,Madagascar,$,9.99,Premium,2026-03-31 22:22:53
+Spotify,Angola,US$,0,Individual,2026-03-31 22:22:31
+Spotify,Angola,US$,0,Student,2026-03-31 22:22:31
+Spotify,Angola,US$,4.49,Duo,2026-03-31 22:22:31
+Spotify,Angola,US$,5.79,Family,2026-03-31 22:22:31
+Apple TV+,Angola,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:38
+Shahid,Angola,,,General,2026-03-31 22:22:42
+Netflix,Angola,$,2.99,Mobile,2026-03-31 22:22:53
+Netflix,Angola,$,3.99,Basic,2026-03-31 22:22:53
+Netflix,Angola,$,7.99,Standard,2026-03-31 22:22:53
+Netflix,Angola,$,9.99,Premium,2026-03-31 22:22:53
+Apple TV+,Mauritius,US$,6.99,Apple TV+ Monthly,2026-03-31 22:22:38
+Shahid,Mauritius,,,General,2026-03-31 22:22:43
+Netflix,Mauritius,$,2.99,Mobile,2026-03-31 22:22:54
+Netflix,Mauritius,$,3.99,Basic,2026-03-31 22:22:54
+Netflix,Mauritius,$,7.99,Standard,2026-03-31 22:22:54
+Netflix,Mauritius,$,9.99,Premium,2026-03-31 22:22:54
+Spotify,Mozambique,US$,0,Individual,2026-03-31 22:22:29
+Spotify,Mozambique,US$,0,Student,2026-03-31 22:22:29
+Spotify,Mozambique,US$,4.49,Duo,2026-03-31 22:22:29
+Spotify,Mozambique,US$,5.79,Family,2026-03-31 22:22:29
+Apple TV+,Mozambique,US$,"6,99",Apple TV+ Monthly,2026-03-31 22:22:34
+Shahid,Mozambique,,,General,2026-03-31 22:22:45
+Netflix,Mozambique,$,2.99,Mobile,2026-03-31 22:22:55
+Netflix,Mozambique,$,3.99,Basic,2026-03-31 22:22:55
+Netflix,Mozambique,$,7.99,Standard,2026-03-31 22:22:55
+Netflix,Mozambique,$,9.99,Premium,2026-03-31 22:22:55
+Spotify,Seychelles,US$,0,Individual,2026-03-31 22:22:32
+Spotify,Seychelles,US$,0,Student,2026-03-31 22:22:32
+Spotify,Seychelles,US$,7.49,Duo,2026-03-31 22:22:32
+Spotify,Seychelles,US$,9.49,Family,2026-03-31 22:22:32
+Apple TV+,Seychelles,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:39
+Shahid,Seychelles,,,General,2026-03-31 22:22:44
+Netflix,Seychelles,$,2.99,Mobile,2026-03-31 22:22:55
+Netflix,Seychelles,$,3.99,Basic,2026-03-31 22:22:55
+Netflix,Seychelles,$,7.99,Standard,2026-03-31 22:22:55
+Netflix,Seychelles,$,9.99,Premium,2026-03-31 22:22:55
+Apple TV+,Rwanda,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:33
+Shahid,Rwanda,,,General,2026-03-31 22:22:49
+Netflix,Rwanda,$,2.99,Mobile,2026-03-31 22:22:55
+Netflix,Rwanda,$,3.99,Basic,2026-03-31 22:22:55
+Netflix,Rwanda,$,7.99,Standard,2026-03-31 22:22:55
+Netflix,Rwanda,$,9.99,Premium,2026-03-31 22:22:55
+Spotify,Senegal,US$,0,Individual,2026-03-31 22:22:27
+Spotify,Senegal,US$,0,Student,2026-03-31 22:22:27
+Spotify,Senegal,US$,4.49,Duo,2026-03-31 22:22:27
+Spotify,Senegal,US$,5.79,Family,2026-03-31 22:22:27
+Apple TV+,Senegal,$,12.99,Apple TV+ Monthly,2026-03-31 22:22:33
+Shahid,Senegal,,,General,2026-03-31 22:22:48
+Netflix,Senegal,$,2.99,Mobile,2026-03-31 22:22:56
+Netflix,Senegal,$,3.99,Basic,2026-03-31 22:22:56
+Netflix,Senegal,$,7.99,Standard,2026-03-31 22:22:56
+Netflix,Senegal,$,9.99,Premium,2026-03-31 22:22:56
