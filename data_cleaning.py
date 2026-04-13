@@ -2,25 +2,30 @@ import pandas as pd
 import numpy as np
 import os
 import shutil
-import Cleaning_Constants as Constants
+import Constants
+from Helpers import DATA, CLEAN_DATA
 
+from pandas import DataFrame
+from pathlib import Path
 
-SUBS_ORIGINAL = "./data/streaming_services.csv"
-SUBS_CLEANED = "./clean_data/subscriptions_cleaned.csv"
-HOURLY_IN = "./data/Hourly_Rate.csv"
-HOURLY_OUT = "./clean_data/hourly_wage_cleaned.csv"
-STEAM_IN = "./data/steam_games.csv"
-STEAM_OUT = "./clean_data/steam_games_cleaned.csv"
-CURRENCIES_ORIGINAL = "./data/currencies.csv"
-CURRENCIES_CLEAN = "./clean_data/currencies_cleaned.csv"
-COMBINED_FILE = "./clean_data/all_clean_data_combined.xlsx"
+# Defining the File Paths
+SUBS_IN: Path = DATA / "streaming_services.csv"
+HOURLY_IN: Path = DATA / "Hourly_Rate.csv"
+STEAM_IN: Path = DATA / "steam_games.csv"
+CURRENCIES_IN: Path = DATA / "currencies.csv"
 
+SUBS_OUT: Path = CLEAN_DATA / "subscriptions_cleaned.csv"
+HOURLY_OUT: Path = CLEAN_DATA / "hourly_wage_cleaned.csv"
+STEAM_OUT: Path = CLEAN_DATA / "steam_games_cleaned.csv"
+CURRENCIES_OUT: Path = CLEAN_DATA / "currencies_cleaned.csv"
+
+COMBINED_FILE: Path = CLEAN_DATA / "all_clean_data_combined.xlsx"
 
 print("Loading subscriptions...")
-subs = pd.read_csv(SUBS_ORIGINAL)
+subs = pd.read_csv(SUBS_IN)
 
 
-def clean_price_string(val):
+def clean_price_string(val: str) -> float:
     if pd.isna(val) or val == "":
         return np.nan
     s = str(val).strip()
@@ -37,8 +42,8 @@ def clean_price_string(val):
         return np.nan
 
 
-def get_currency_code(row):
-    curr = str(row["currency"]).strip()
+def get_currency_code(row) -> str:
+    curr: str = str(row["currency"]).strip()
 
     return Constants.mapping.get(curr, curr)
 
@@ -92,8 +97,8 @@ subs_clean = subs.dropna(subset=["price_usd"]).copy()
 subs_clean = subs_clean[["platform", "region", "plan_type", "price_usd", "scraped_at"]]
 subs_clean.rename(columns={"price_usd": "price"}, inplace=True)
 subs_clean["currency"] = "USD"
-subs_clean.to_csv(SUBS_CLEANED, index=False)
-print(f"Subscriptions saved to {SUBS_CLEANED}")
+subs_clean.to_csv(SUBS_OUT, index=False)
+print(f"Subscriptions saved to {SUBS_OUT}")
 
 
 print("\nLoading hourly wages...")
@@ -197,8 +202,8 @@ steam.to_csv(STEAM_OUT, index=False)
 print(f" Steam games saved to {STEAM_OUT}")
 
 
-if os.path.exists(CURRENCIES_ORIGINAL):
-    df_curr = pd.read_csv(CURRENCIES_ORIGINAL)
+if os.path.exists(CURRENCIES_IN):
+    df_curr = pd.read_csv(CURRENCIES_IN)
     df_long = (
         df_curr.melt(var_name="currency_code", value_name="exchange_rate")
         if df_curr.shape[0] == 1
@@ -219,8 +224,8 @@ if os.path.exists(CURRENCIES_ORIGINAL):
             [pd.DataFrame({"currency_code": ["USD"], "exchange_rate": [1.0]}), df_long],
             ignore_index=True,
         )
-    df_long.to_csv(CURRENCIES_CLEAN, index=False)
-    print(f"Currencies saved to {CURRENCIES_CLEAN}")
+    df_long.to_csv(CURRENCIES_OUT, index=False)
+    print(f"Currencies saved to {CURRENCIES_OUT}")
 else:
     clean_df = pd.DataFrame(
         [
@@ -228,12 +233,12 @@ else:
             for c, r in Constants.EXCHANGE_RATES.items()
         ]
     )
-    clean_df.to_csv(CURRENCIES_CLEAN, index=False)
-    print(f" Currencies built from internal rates and saved to {CURRENCIES_CLEAN}")
+    clean_df.to_csv(CURRENCIES_OUT, index=False)
+    print(f" Currencies built from internal rates and saved to {CURRENCIES_OUT}")
 
 
 print("\nCombining datasets side by side...")
-subs = pd.read_csv(SUBS_CLEANED)
+subs = pd.read_csv(SUBS_OUT)
 steam = pd.read_csv(STEAM_OUT)
 
 subs.columns = subs.columns.str.strip().str.lower().str.replace(" ", "_")
@@ -285,31 +290,3 @@ combined.to_excel(COMBINED_FILE, index=False)
 print(f" Combined dataset saved as: {COMBINED_FILE}")
 print(f"Steam data:        columns A-J")
 print(f"Subscription data: columns K onwards")
-
-# print("\nOrganizing files into folders...")
-
-# os.makedirs("clean_data", exist_ok=True)
-
-# original_files = [
-#     "all_platforms_latest.csv",
-#     "Hourly_Rate.csv",
-#     "steam_games_dataset.csv",
-#     "currencies.csv",
-# ]
-# cleaned_files = [SUBS_CLEANED, HOURLY_OUT, STEAM_OUT, CURRENCIES_CLEAN]
-
-# for file in original_files:
-#     if os.path.exists(file):
-#         shutil.move(file, os.path.join("original_data", file))
-#         print(f"Moved: {file} -> original_data/")
-#     else:
-#         print(f"Not found (already moved): {file}")
-
-# for file in cleaned_files + [COMBINED_FILE]:
-#     if os.path.exists(file):
-#         shutil.move(file, os.path.join("clean_data", file))
-#         print(f"Moved: {file} -> clean_data/")
-#     else:
-#         print(f"Not found: {file}")
-
-# print("\n Done. Originals in 'original_data/', cleaned files in 'clean_data/'")

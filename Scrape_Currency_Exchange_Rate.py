@@ -7,7 +7,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.remote.webelement import WebElement
 from time import sleep
-from Helpers import setup_driver, selectFromDropdown, currencies
+from Helpers import setup_driver, selectFromDropdown
+import Constants
 
 
 def main() -> None:
@@ -48,7 +49,7 @@ def main() -> None:
         sleep(sleep_delay)
 
         data: dict[str, str] = {"USD": "1"}
-        for currency in currencies:
+        for currency in Constants.currencies:
             if currency == "USD":
                 continue
 
