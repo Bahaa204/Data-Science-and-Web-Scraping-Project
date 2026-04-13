@@ -15,9 +15,10 @@ import requests
 import Constants
 from pathlib import Path
 from pandas import DataFrame
+import numpy as np
 import json
 
-# File Paths
+# Folder Paths
 BASE: Path = Path(__file__).parent
 DATA: Path = BASE / "data"
 CLEAN_DATA: Path = BASE / "clean_data"
@@ -26,21 +27,27 @@ EDA_OUTPUT: Path = BASE / "eda_outputs"
 ML_OUTPUT: Path = BASE / "ml_outputs"
 NLP_OUTPUT: Path = BASE / "nlp_outputs"
 
+DATA.mkdir(exist_ok=True)
+CLEAN_DATA.mkdir(exist_ok=True)
+ANALYZED_DATA.mkdir(exist_ok=True)
 EDA_OUTPUT.mkdir(exist_ok=True)
 ML_OUTPUT.mkdir(exist_ok=True)
 NLP_OUTPUT.mkdir(exist_ok=True)
 
 
 def setup_driver() -> WebDriver:
-    print("Setting up the web driver")
     options = Options()
     options.add_argument("--headless")  # Run browser in headless mode (no GUI)
+    print("Setting up the web driver")
     print("Opening in headless mode")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--start-maximized")
-    ua = UserAgent()
+    options.add_argument("--disable-notifications")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    ua: UserAgent = UserAgent()
     options.add_argument(f"user-agent={ua.random}")  # Random User-Agent
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
@@ -267,3 +274,89 @@ def load_all() -> dict[str, DataFrame]:
         "affordability": affordability,
         "steam_aff": steam_aff,
     }
+
+
+def clean_price_string(val: str) -> float:
+    if pd.isna(val) or val == "":
+        return np.nan
+    s = str(val).strip()
+    for sym in Constants.symbols:
+        s = s.replace(sym, "")
+    if "," in s and "." not in s:
+        parts = s.split(",")
+        if len(parts) == 2 and len(parts[1]) <= 2:
+            s = s.replace(",", ".")
+    s = "".join(c for c in s if c.isdigit() or c == ".")
+    try:
+        return float(s)
+    except:
+        return np.nan
+
+
+def get_currency_code(row) -> str:
+    curr: str = str(row["currency"]).strip()
+
+    return Constants.mapping.get(curr, curr)
+
+
+def convert_to_usd(row):
+    price = row["price_local"]
+    curr = row["currency_code"]
+    if pd.isna(price):
+        return np.nan
+    if curr == "USD":
+        return price
+    rate = Constants.EXCHANGE_RATES.get(curr)
+    return price / rate if rate else np.nan
+
+
+def clean_price_to_usd(price_str, region):
+    if pd.isna(price_str) or price_str == "":
+        return np.nan
+    s = str(price_str).strip()
+    currency = None
+    if "€" in s:
+        currency = "EUR"
+    elif "£" in s:
+        currency = "GBP"
+    elif "¥" in s:
+        currency = "CNY" if region == "CN" else "JPY"
+    elif "R$" in s:
+        currency = "BRL"
+    elif "₹" in s:
+        currency = "INR"
+    elif "$" in s:
+        non_usd = {
+            "CA": "CAD",
+            "AU": "AUD",
+            "NZ": "NZD",
+            "HK": "HKD",
+            "SG": "SGD",
+            "TW": "TWD",
+            "MX": "MXN",
+        }
+        currency = non_usd.get(region, "USD")
+    else:
+        currency = Constants.region_default.get(region, "USD")
+    for sym in ["€", "£", "¥", "R$", "₹", "$"]:
+        s = s.replace(sym, "")
+    if "," in s and "." not in s:
+        parts = s.split(",")
+        if len(parts) == 2 and len(parts[1]) <= 2:
+            s = s.replace(",", ".")
+    s = "".join(c for c in s if c.isdigit() or c == ".")
+    try:
+        price_num = float(s)
+    except:
+        return np.nan
+    if currency == "USD":
+        return price_num
+    rate = Constants.EXCHANGE_RATES.get(currency)
+    return price_num / rate if rate else np.nan
+
+
+def get_col(df, *candidates):
+    for c in candidates:
+        if c in df.columns:
+            return df[c]
+    raise KeyError(f"None of {candidates} found in columns: {df.columns.tolist()}")

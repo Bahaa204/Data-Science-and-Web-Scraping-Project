@@ -9,12 +9,13 @@ import requests
 from bs4 import BeautifulSoup
 
 import Constants
-from Helpers import make_row, extract_segment, extract_price
+from Helpers import make_row, extract_segment, extract_price, DATA
+from pathlib import Path
 
 timeout = 20
 max_workers = 20
 
-output_file = "./data/streaming_services.csv"
+output_file = DATA / "streaming_services.csv"
 
 
 def fetch_page(url: str, lang: str):
@@ -226,7 +227,7 @@ def scrape_region(region):
     return rows
 
 
-def append_to_csv(df: pd.DataFrame, filepath: str):
+def append_to_csv(df: pd.DataFrame, filepath: Path):
     if df.empty:
         print("No new rows to save.")
         return

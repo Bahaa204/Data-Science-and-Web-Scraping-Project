@@ -1,7 +1,12 @@
+numpy
+pandas
+scipy
+plotly
+scikit-learn
 requests
 beautifulsoup4
-pandas
 selenium
 webdriver-manager
 openpyxl
 fake_useragent
+streamlit

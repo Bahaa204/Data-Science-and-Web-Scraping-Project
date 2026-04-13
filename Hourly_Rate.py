@@ -1,5 +1,5 @@
 import requests
-from Helpers import GetCountries
+from Helpers import GetCountries, DATA
 import pandas as pd
 
 
@@ -38,7 +38,7 @@ def main() -> None:
 
     countries = GetCountries()
     indicator = "NY.GDP.PCAP.CD"
-    file_path: str = "./data/Hourly_Rate.csv"
+    file_path: str = DATA / "Hourly_Rate.csv"
 
     data = []
 

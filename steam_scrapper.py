@@ -4,13 +4,12 @@ import threading
 from datetime import datetime
 import pandas as pd
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
+from Helpers import setup_driver, DATA
+
 
 lock = threading.Lock()
 
@@ -198,18 +197,10 @@ urls = [
     "https://store.steampowered.com/search/?category1=998&hidef2p=1&cc=cn&l=english",
 ]
 
-if __name__ == "__main__":
-    chrome_options = Options()
-    chrome_options.add_argument("--start-maximized")
-    chrome_options.add_argument("--disable-notifications")
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
 
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()), options=chrome_options
-    )
+def main() -> None:
+
+    driver: WebDriver = setup_driver()
 
     try:
         handles = []
@@ -235,9 +226,10 @@ if __name__ == "__main__":
         driver.quit()
 
     df = pd.DataFrame(all_games)
-    filename = "./data/steam_games.csv"
-    file_exists = os.path.exists(filename)
-    df.to_csv(
-        filename, mode="a", header=not file_exists, index=False, encoding="utf-8-sig"
-    )
+    filename = DATA / "steam_games.csv"
+    df.to_csv(filename, mode="a", index=False, encoding="utf-8-sig")
     print(f"\nDone. {len(all_games)} total records saved/appended to {filename}")
+
+
+if __name__ == "__main__":
+    main()
