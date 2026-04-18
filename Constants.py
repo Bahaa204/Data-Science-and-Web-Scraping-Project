@@ -402,7 +402,6 @@ country_names = {
     "IRN": "Iran",
     "IRQ": "Iraq",
     "ISL": "Iceland",
-    "ISR": "Israel",
     "ITA": "Italy",
     "JAM": "Jamaica",
     "JEY": "Jersey",
