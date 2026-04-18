@@ -95,7 +95,6 @@ countries = [
     ("Morocco", "ma-en", "ma", "en-MA"),
     ("Tunisia", "tn-en", "tn", "en-TN"),
     ("Algeria", "dz-en", "dz", "en-DZ"),
-    ("Israel", "il-en", "il", "en-IL"),
     ("India", "in-en", "in", "en-IN"),
     ("Pakistan", "pk-en", "pk", "en-PK"),
     ("Bangladesh", "bd-en", "bd", "en-BD"),
