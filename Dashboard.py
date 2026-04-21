@@ -6,7 +6,6 @@ import Constants
 
 st.set_page_config(
     page_title="Streaming & Gaming Price Dashboard",
-    page_icon="🎮",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -139,7 +138,6 @@ NLP_READY = NLP is not None
 PLATFORM_LIST = sorted(subs["platform"].unique().tolist())
 REGION_LIST = sorted(subs["region"].unique().tolist())
 
-# ── Sidebar ────────────────────────────────────────────────────
 with st.sidebar:
     st.header("Dashboard Filters")
     st.markdown("---")
@@ -194,18 +192,17 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(
     [
-        "💰 Affordability",
-        "🎮 Steam Pricing",
-        "📊 Subscription Comparison",
-        "🌍 Cross-Dataset",
-        "📈 EDA",
-        "🤖 ML Insights",
-        "📝 NLP Analysis",
-        "🔍 Game / Sub Lookup",
+        "Affordability",
+        "Steam Pricing",
+        "Subscription Comparison",
+        "Cross-Dataset",
+        "EDA",
+        "ML Insights",
+        "NLP Analysis",
+        "Game / Sub Lookup",
     ]
 )
 
-# ─── TAB 1: Affordability ─────────────────────────────────────
 with tab1:
     st.markdown(
         "<div class='section-header'>Hours of Work to Afford a Subscription</div>",
@@ -306,7 +303,6 @@ with tab1:
     fig5.update_layout(template="plotly_dark", paper_bgcolor="#1e2130")
     st.plotly_chart(fig5, use_container_width=True)
 
-# ─── TAB 2: Steam Pricing ─────────────────────────────────────
 with tab2:
     col1, col2 = st.columns(2)
     with col1:
@@ -380,7 +376,6 @@ with tab2:
     )
     st.plotly_chart(fig3, use_container_width=True)
 
-# ─── TAB 3: Subscription Comparison ───────────────────────────
 with tab3:
     col1, col2 = st.columns(2)
     with col1:
@@ -458,7 +453,6 @@ with tab3:
     )
     st.plotly_chart(fig4, use_container_width=True)
 
-# ─── TAB 4: Cross-Dataset Summary ─────────────────────────────
 with tab4:
     cross = (
         aff_f.groupby("region")
@@ -549,7 +543,6 @@ with tab4:
     st.plotly_chart(fig3, use_container_width=True)
     st.dataframe(cross, use_container_width=True, height=500)
 
-# ─── TAB 5: EDA ───────────────────────────────────────────────
 with tab5:
     if not EDA or not EDA_READY:
         st.warning("⚠️ Run `EDA.ipynb` first, then restart the dashboard.")
@@ -696,7 +689,6 @@ with tab5:
         qs.columns = ["Quartile", "Avg Wage", "Min", "Max", "Regions"]
         st.dataframe(qs, use_container_width=True)
 
-# ─── TAB 6: ML Insights ───────────────────────────────────────
 with tab6:
     if not ML or not ML_READY:
         st.warning("⚠️ Run `python Machine_Learning.py` first.")
@@ -933,7 +925,6 @@ with tab6:
         )
         st.plotly_chart(fig_bd, use_container_width=True)
 
-# ─── TAB 7: NLP Analysis ──────────────────────────────────────
 with tab7:
     if not NLP or not NLP_READY:
         st.warning("⚠️ Run `python NLP_Processing.py` first.")
@@ -1093,7 +1084,6 @@ with tab7:
         st.plotly_chart(fig_nm2, use_container_width=True)
     st.dataframe(nm, use_container_width=True)
 
-# ─── TAB 8: Game / Subscription Lookup ────────────────────────
 with tab8:
     st.markdown(
         "<div class='section-header'>🔍 Game or Subscription Lookup</div>",
