@@ -1,0 +1,40 @@
+{
+  "features": [
+    "Original Price",
+    "discount_pct",
+    "days_since_release",
+    "hourly_wage_usd",
+    "region_enc",
+    "platform_enc"
+  ],
+  "region_map": {
+    "BR": 0,
+    "CN": 1,
+    "DE": 2,
+    "GB": 3,
+    "IN": 4,
+    "TR": 5,
+    "US": 6
+  },
+  "platform_map": {
+    "win": 0,
+    "win, group_separator": 1,
+    "win, linux": 2,
+    "win, linux, group_separator": 3,
+    "win, mac": 4,
+    "win, mac, group_separator": 5,
+    "win, mac, linux": 6,
+    "win, mac, linux, group_separator": 7
+  },
+  "metrics": {
+    "work_hours": {
+      "MAE": 0.0987,
+      "R2": 0.9996
+    },
+    "play_hours": {
+      "MAE": 0.1294,
+      "R2": 0.9998
+    },
+    "buy_now_acc": 0.99995
+  }
+}

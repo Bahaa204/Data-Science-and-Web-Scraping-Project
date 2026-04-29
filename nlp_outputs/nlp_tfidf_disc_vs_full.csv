@@ -1,0 +1,41 @@
+Keyword,TF-IDF Score,Group
+evil,0.065294,Discounted
+resident evil,0.065246,Discounted
+resident,0.065246,Discounted
+simulator,0.020708,Discounted
+planet,0.020051,Discounted
+frostpunk,0.017584,Discounted
+hunter,0.01533,Discounted
+world,0.015168,Discounted
+monster hunter,0.012975,Discounted
+monster,0.012975,Discounted
+fall,0.01245,Discounted
+xenonauts,0.011275,Discounted
+cloverpit,0.010515,Discounted
+light,0.010441,Discounted
+dying,0.010388,Discounted
+dying light,0.010388,Discounted
+operator,0.009697,Discounted
+rogue,0.009654,Discounted
+peak,0.009405,Discounted
+wilds,0.009351,Discounted
+simulator,0.02375,Full Price
+ii,0.017476,Full Price
+black,0.012678,Full Price
+edition,0.012082,Full Price
+dead,0.010896,Full Price
+fallout,0.00972,Full Price
+duty,0.009321,Full Price
+warhammer,0.008706,Full Price
+war,0.008659,Full Price
+age,0.007692,Full Price
+iii,0.007681,Full Price
+escape,0.007679,Full Price
+space,0.007576,Full Price
+ops,0.007158,Full Price
+duty black,0.007158,Full Price
+black ops,0.007158,Full Price
+remastered,0.007028,Full Price
+grounded,0.006768,Full Price
+life,0.006591,Full Price
+iv,0.006568,Full Price
