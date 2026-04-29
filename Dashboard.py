@@ -194,14 +194,14 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(
     [
-        "💰 Affordability",
-        "🎮 Steam Pricing",
-        "📊 Subscription Comparison",
-        "🌍 Cross-Dataset",
-        "📈 EDA",
-        "🤖 ML Insights",
-        "📝 NLP Analysis",
-        "🔍 Game / Sub Lookup",
+        "Affordability",
+        "Steam Pricing",
+        "Subscription Comparison",
+        "Cross-Dataset",
+        "EDA",
+        "ML Insights",
+        "NLP Analysis",
+        "Game / Sub Lookup",
     ]
 )
 
