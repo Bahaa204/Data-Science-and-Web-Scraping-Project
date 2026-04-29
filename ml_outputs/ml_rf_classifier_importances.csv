@@ -1,4 +1,4 @@
 Feature,Importance
-orig_price,0.84179
-platform_enc,0.13043
-region_enc,0.02778
+orig_price,0.8437
+platform_enc,0.12964
+region_enc,0.02666
