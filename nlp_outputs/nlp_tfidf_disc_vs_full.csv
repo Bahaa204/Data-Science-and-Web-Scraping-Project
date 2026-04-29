@@ -1,41 +1,41 @@
 Keyword,TF-IDF Score,Group
-evil,0.065294,Discounted
-resident evil,0.065246,Discounted
-resident,0.065246,Discounted
-simulator,0.020708,Discounted
-planet,0.020051,Discounted
-frostpunk,0.017584,Discounted
-hunter,0.01533,Discounted
-world,0.015168,Discounted
-monster hunter,0.012975,Discounted
-monster,0.012975,Discounted
-fall,0.01245,Discounted
-xenonauts,0.011275,Discounted
-cloverpit,0.010515,Discounted
-light,0.010441,Discounted
-dying,0.010388,Discounted
-dying light,0.010388,Discounted
-operator,0.009697,Discounted
-rogue,0.009654,Discounted
-peak,0.009405,Discounted
-wilds,0.009351,Discounted
-simulator,0.02375,Full Price
-ii,0.017476,Full Price
-black,0.012678,Full Price
-edition,0.012082,Full Price
-dead,0.010896,Full Price
-fallout,0.00972,Full Price
-duty,0.009321,Full Price
-warhammer,0.008706,Full Price
-war,0.008659,Full Price
-age,0.007692,Full Price
-iii,0.007681,Full Price
-escape,0.007679,Full Price
-space,0.007576,Full Price
-ops,0.007158,Full Price
-duty black,0.007158,Full Price
-black ops,0.007158,Full Price
-remastered,0.007028,Full Price
-grounded,0.006768,Full Price
-life,0.006591,Full Price
-iv,0.006568,Full Price
+evil,0.036237,Discounted
+resident,0.036219,Discounted
+resident evil,0.036219,Discounted
+simulator,0.017876,Discounted
+planet,0.015553,Discounted
+edition,0.015379,Discounted
+world,0.01356,Discounted
+ii,0.012903,Discounted
+warhammer,0.012883,Discounted
+frostpunk,0.012773,Discounted
+starrupture,0.012667,Discounted
+cloverpit,0.012285,Discounted
+keeper,0.010752,Discounted
+fall,0.010525,Discounted
+cairn,0.010478,Discounted
+metal,0.010318,Discounted
+outer,0.010302,Discounted
+evolved,0.010207,Discounted
+wilds,0.00916,Discounted
+zone,0.009148,Discounted
+simulator,0.025927,Full Price
+ii,0.020916,Full Price
+black,0.014077,Full Price
+dead,0.011163,Full Price
+fallout,0.01069,Full Price
+edition,0.010659,Full Price
+duty,0.010028,Full Price
+escape,0.008784,Full Price
+iii,0.007948,Full Price
+duty black,0.00787,Full Price
+ops,0.00787,Full Price
+black ops,0.00787,Full Price
+blade,0.007724,Full Price
+grounded,0.00765,Full Price
+resident,0.007583,Full Price
+resident evil,0.007583,Full Price
+evil,0.007583,Full Price
+warhammer,0.007473,Full Price
+factorio,0.00735,Full Price
+reanimal,0.007302,Full Price

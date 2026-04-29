@@ -28,13 +28,13 @@
   },
   "metrics": {
     "work_hours": {
-      "MAE": 0.0987,
+      "MAE": 0.0969,
       "R2": 0.9996
     },
     "play_hours": {
-      "MAE": 0.1294,
+      "MAE": 0.1347,
       "R2": 0.9998
     },
-    "buy_now_acc": 0.99995
+    "buy_now_acc": 0.99996
   }
 }
