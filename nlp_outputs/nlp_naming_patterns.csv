@@ -1,5 +1,5 @@
 Pattern,Value,Count,Avg Price ($),Median ($),Std Dev
-Contains Number,Yes,38023,45.372,44.99,21.032
-Contains Number,No,123926,31.994,29.99,17.395
-Contains Colon,Yes,35614,40.699,39.99,18.224
-Contains Colon,No,126335,33.566,29.99,19.14
+Contains Number,Yes,38343,45.392,44.99,21.027
+Contains Number,No,124883,32.017,29.99,17.403
+Contains Colon,Yes,35894,40.737,39.99,18.233
+Contains Colon,No,127332,33.587,29.99,19.142

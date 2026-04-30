@@ -1,31 +1,31 @@
 Keyword,TF-IDF Score
-simulator,0.02075
-evil,0.016372
-resident evil,0.016366
-resident,0.016366
-ii,0.014018
-edition,0.01076
-dead,0.007921
-black,0.007594
-warhammer,0.007593
-fallout,0.007342
-grounded,0.007243
-escape,0.006926
-planet,0.006911
-age,0.006862
-duty,0.00668
-world,0.006603
-borderlands,0.006095
-war,0.006055
+simulator,0.020733
+evil,0.016289
+resident,0.016283
+resident evil,0.016283
+ii,0.014016
+edition,0.010737
+dead,0.007934
+black,0.007616
+warhammer,0.007591
+fallout,0.007334
+grounded,0.007266
+escape,0.006914
+age,0.006889
+planet,0.006877
+duty,0.006675
+world,0.006596
+borderlands,0.00609
+war,0.006053
 iii,0.005796
-keeper,0.005457
-space,0.00541
-hunter,0.005312
-man,0.005247
-black ops,0.005206
-duty black,0.005206
-ops,0.005206
-factorio,0.005082
-reanimal,0.005051
-monster,0.005046
-yapyap,0.005008
+keeper,0.005435
+space,0.005412
+hunter,0.005302
+man,0.005251
+ops,0.005208
+black ops,0.005208
+duty black,0.005208
+factorio,0.005085
+reanimal,0.005054
+monster,0.005038
+yapyap,0.005005

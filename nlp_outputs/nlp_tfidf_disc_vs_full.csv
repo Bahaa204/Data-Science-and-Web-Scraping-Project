@@ -1,41 +1,41 @@
 Keyword,TF-IDF Score,Group
-evil,0.033284,Discounted
-resident evil,0.033267,Discounted
-resident,0.033267,Discounted
-simulator,0.01792,Discounted
-planet,0.014309,Discounted
-ii,0.013507,Discounted
-world,0.012871,Discounted
-edition,0.012628,Discounted
-warhammer,0.011873,Discounted
-frostpunk,0.01172,Discounted
-starrupture,0.011622,Discounted
-cloverpit,0.011271,Discounted
-fall,0.010085,Discounted
-outer,0.010064,Discounted
-keeper,0.009888,Discounted
-cairn,0.009614,Discounted
-metal,0.009485,Discounted
-evolved,0.009376,Discounted
-dragon,0.008901,Discounted
-wilds,0.008434,Discounted
-simulator,0.026211,Full Price
-ii,0.020823,Full Price
-black,0.014393,Full Price
-edition,0.011399,Full Price
-dead,0.010875,Full Price
-fallout,0.010765,Full Price
-duty,0.009887,Full Price
-escape,0.008823,Full Price
+evil,0.033052,Discounted
+resident evil,0.033035,Discounted
+resident,0.033035,Discounted
+simulator,0.017907,Discounted
+planet,0.014212,Discounted
+ii,0.013598,Discounted
+world,0.012818,Discounted
+edition,0.012546,Discounted
+warhammer,0.011794,Discounted
+frostpunk,0.011637,Discounted
+starrupture,0.011541,Discounted
+cloverpit,0.011192,Discounted
+fall,0.010072,Discounted
+outer,0.009994,Discounted
+keeper,0.00982,Discounted
+cairn,0.009546,Discounted
+metal,0.009419,Discounted
+evolved,0.009311,Discounted
+dragon,0.008839,Discounted
+wilds,0.008375,Discounted
+simulator,0.026216,Full Price
+ii,0.020842,Full Price
+black,0.014443,Full Price
+edition,0.011416,Full Price
+dead,0.010836,Full Price
+fallout,0.010748,Full Price
+duty,0.009876,Full Price
+escape,0.008812,Full Price
 ops,0.007819,Full Price
 black ops,0.007819,Full Price
 duty black,0.007819,Full Price
-grounded,0.007717,Full Price
-iii,0.007458,Full Price
-factorio,0.007437,Full Price
-reanimal,0.007391,Full Price
-blade,0.007377,Full Price
-yapyap,0.007328,Full Price
-warhammer,0.007324,Full Price
-evil,0.007252,Full Price
-resident evil,0.007252,Full Price
+grounded,0.00777,Full Price
+iii,0.007455,Full Price
+factorio,0.007438,Full Price
+reanimal,0.007394,Full Price
+blade,0.007368,Full Price
+warhammer,0.007368,Full Price
+yapyap,0.007322,Full Price
+palworld,0.00717,Full Price
+everwind,0.007152,Full Price
