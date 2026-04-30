@@ -43435,3 +43435,400 @@ Mozambique,Apple TV+,Monthly,6.99,0.32,Normal
 Mozambique,Netflix,Premium,9.99,0.32,Normal
 Mozambique,Netflix,Standard,7.99,0.32,Normal
 Mozambique,Netflix,Basic,3.99,0.32,Normal
+United States,Spotify,Duo,18.99,40.64,Normal
+United States,Spotify,Family,21.99,40.64,Normal
+United States,Apple TV+,Monthly,12.99,40.64,Normal
+United States,Netflix,Premium,26.99,40.64,Outlier
+United States,Netflix,Standard with Ads,8.99,40.64,Normal
+United States,Netflix,Standard,19.99,40.64,Normal
+Canada,Spotify,Duo,17.89,26.13,Normal
+Canada,Spotify,Family,20.99,26.13,Normal
+Canada,Apple TV+,Monthly,14.99,26.13,Normal
+Morocco,Apple TV+,Monthly,12.99,2.0,Normal
+Tunisia,Apple TV+,Monthly,12.99,2.01,Normal
+Tunisia,Netflix,Premium,9.99,2.01,Normal
+Tunisia,Netflix,Standard,7.99,2.01,Normal
+Tunisia,Netflix,Basic,3.99,2.01,Normal
+Lebanon,Spotify,Duo,7.49,1.67,Normal
+Lebanon,Spotify,Family,9.49,1.67,Normal
+Lebanon,Apple TV+,Monthly,6.99,1.67,Normal
+Lebanon,Netflix,Premium,9.99,1.67,Normal
+Lebanon,Netflix,Standard,7.99,1.67,Normal
+Lebanon,Netflix,Basic,3.99,1.67,Normal
+Bahrain,Spotify,Duo,7.49,14.26,Normal
+Bahrain,Spotify,Family,9.49,14.26,Normal
+Bahrain,Apple TV+,Monthly,7.99,14.26,Normal
+Bahrain,Netflix,Premium,15.79,14.26,Normal
+Bahrain,Netflix,Standard,10.49,14.26,Normal
+Bahrain,Netflix,Basic,7.99,14.26,Normal
+United Kingdom,Spotify,Duo,23.99,25.6,Outlier
+United Kingdom,Spotify,Family,29.32,25.6,Outlier
+United Kingdom,Apple TV+,Monthly,12.99,25.6,Normal
+United Kingdom,Netflix,Premium,26.99,25.6,Outlier
+United Kingdom,Netflix,Standard with Ads,8.99,25.6,Normal
+United Kingdom,Netflix,Standard,19.99,25.6,Normal
+Australia,Spotify,Duo,22.99,31.06,Outlier
+Australia,Spotify,Family,27.99,31.06,Outlier
+Australia,Apple TV+,Monthly,15.99,31.06,Normal
+Algeria,Apple TV+,Monthly,12.99,2.77,Normal
+Algeria,Netflix,Premium,9.99,2.77,Normal
+Algeria,Netflix,Standard,7.99,2.77,Normal
+Algeria,Netflix,Basic,3.99,2.77,Normal
+New Zealand,Spotify,Duo,28.99,23.66,Outlier
+New Zealand,Spotify,Family,33.99,23.66,Outlier
+New Zealand,Apple TV+,Monthly,17.99,23.66,Normal
+Kuwait,Spotify,Duo,7.49,15.73,Normal
+Kuwait,Spotify,Family,9.49,15.73,Normal
+Kuwait,Apple TV+,Monthly,12.99,15.73,Normal
+Kuwait,Netflix,Premium,17.99,15.73,Normal
+Kuwait,Netflix,Standard,11.99,15.73,Normal
+Kuwait,Netflix,Basic,8.99,15.73,Normal
+Oman,Spotify,Duo,7.49,9.75,Normal
+Oman,Spotify,Family,9.49,9.75,Normal
+Oman,Apple TV+,Monthly,6.99,9.75,Normal
+Oman,Netflix,Premium,15.79,9.75,Normal
+Oman,Netflix,Standard,10.49,9.75,Normal
+Oman,Netflix,Basic,8.39,9.75,Normal
+Egypt,Spotify,Duo,2.27,1.61,Normal
+Egypt,Spotify,Family,2.9,1.61,Normal
+Egypt,Apple TV+,Monthly,2.5,1.61,Normal
+Saudi Arabia,Apple TV+,Monthly,8.0,16.89,Normal
+Jordan,Spotify,Duo,7.49,2.22,Normal
+Jordan,Spotify,Family,9.49,2.22,Normal
+Jordan,Apple TV+,Monthly,6.99,2.22,Normal
+Jordan,Netflix,Premium,9.99,2.22,Normal
+Jordan,Netflix,Standard,7.99,2.22,Normal
+Jordan,Netflix,Basic,3.99,2.22,Normal
+United Arab Emirates,Apple TV+,Monthly,7.63,24.17,Normal
+Ireland,Spotify,Duo,21.83,54.28,Normal
+Ireland,Spotify,Family,26.43,54.28,Outlier
+Ireland,Apple TV+,Monthly,11.48,54.28,Normal
+Qatar,Netflix,Premium,17.99,36.87,Normal
+Qatar,Netflix,Standard,11.99,36.87,Normal
+Qatar,Netflix,Basic,8.99,36.87,Normal
+Pakistan,Apple TV+,Monthly,12.99,0.71,Normal
+Malaysia,Spotify,Individual,3.72,5.71,Normal
+Malaysia,Spotify,Student,2.02,5.71,Normal
+Malaysia,Spotify,Duo,5.21,5.71,Normal
+Malaysia,Spotify,Family,5.94,5.71,Normal
+Malaysia,Apple TV+,Monthly,6.36,5.71,Normal
+Bangladesh,Apple TV+,Monthly,12.99,1.25,Normal
+Bangladesh,Netflix,Premium,9.99,1.25,Normal
+Bangladesh,Netflix,Standard,7.99,1.25,Normal
+Bangladesh,Netflix,Basic,3.99,1.25,Normal
+Nepal,Spotify,Duo,4.49,0.7,Normal
+Nepal,Spotify,Family,5.79,0.7,Normal
+Nepal,Apple TV+,Monthly,12.99,0.7,Normal
+Nepal,Netflix,Premium,9.99,0.7,Normal
+Nepal,Netflix,Standard,7.99,0.7,Normal
+Nepal,Netflix,Basic,3.99,0.7,Normal
+Bhutan,Apple TV+,Monthly,12.99,1.84,Normal
+Bhutan,Netflix,Premium,9.99,1.84,Normal
+Bhutan,Netflix,Standard,7.99,1.84,Normal
+Bhutan,Netflix,Basic,3.99,1.84,Normal
+Maldives,Spotify,Duo,7.49,6.43,Normal
+Maldives,Spotify,Family,9.49,6.43,Normal
+Maldives,Apple TV+,Monthly,12.99,6.43,Normal
+Maldives,Netflix,Premium,17.99,6.43,Normal
+Maldives,Netflix,Standard,13.99,6.43,Normal
+Maldives,Netflix,Basic,10.99,6.43,Normal
+Singapore,Spotify,Duo,16.98,43.59,Normal
+Singapore,Spotify,Family,20.98,43.59,Normal
+Singapore,Apple TV+,Monthly,13.98,43.59,Normal
+Philippines,Spotify,Individual,3.02,1.92,Normal
+Philippines,Spotify,Student,1.52,1.92,Normal
+Philippines,Spotify,Duo,4.09,1.92,Normal
+Philippines,Spotify,Family,4.98,1.92,Normal
+Philippines,Apple TV+,Monthly,6.59,1.92,Normal
+Indonesia,Apple TV+,Monthly,6.39,2.37,Normal
+Sri Lanka,Spotify,Duo,3.23,2.17,Normal
+Sri Lanka,Spotify,Family,4.2,2.17,Normal
+Sri Lanka,Apple TV+,Monthly,6.99,2.17,Normal
+Sri Lanka,Netflix,Premium,9.99,2.17,Normal
+Sri Lanka,Netflix,Standard,7.99,2.17,Normal
+Sri Lanka,Netflix,Basic,3.99,2.17,Normal
+Cambodia,Apple TV+,Monthly,7.99,1.26,Normal
+Cambodia,Netflix,Premium,9.99,1.26,Normal
+Cambodia,Netflix,Standard,7.99,1.26,Normal
+Cambodia,Netflix,Basic,3.99,1.26,Normal
+Brunei,Spotify,Duo,10.49,15.94,Normal
+Brunei,Spotify,Family,12.99,15.94,Normal
+Brunei,Netflix,Premium,17.99,15.94,Normal
+Brunei,Netflix,Standard,13.99,15.94,Normal
+Brunei,Netflix,Basic,10.99,15.94,Normal
+Myanmar,Apple TV+,Monthly,12.99,0.65,Normal
+Myanmar,Netflix,Premium,9.99,0.65,Normal
+Myanmar,Netflix,Standard,7.99,0.65,Normal
+Myanmar,Netflix,Basic,3.99,0.65,Normal
+Laos,Apple TV+,Monthly,7.99,1.02,Normal
+Laos,Netflix,Premium,9.99,1.02,Normal
+Laos,Netflix,Standard,7.99,1.02,Normal
+Laos,Netflix,Basic,3.99,1.02,Normal
+Japan,Apple TV+,Monthly,5.67,15.62,Normal
+Hong Kong,Spotify,Duo,12.56,26.0,Normal
+Hong Kong,Spotify,Family,16.41,26.0,Normal
+Hong Kong,Apple TV+,Monthly,8.72,26.0,Normal
+Kazakhstan,Spotify,Duo,6.49,6.81,Normal
+Kazakhstan,Spotify,Family,7.99,6.81,Normal
+Kazakhstan,Apple TV+,Monthly,12.99,6.81,Normal
+Uzbekistan,Apple TV+,Monthly,12.99,1.52,Normal
+Georgia,Apple TV+,Monthly,12.99,4.44,Normal
+Kyrgyzstan,Spotify,Duo,7.49,1.16,Normal
+Kyrgyzstan,Spotify,Family,9.49,1.16,Normal
+Kyrgyzstan,Apple TV+,Monthly,12.99,1.16,Normal
+Azerbaijan,Spotify,Duo,7.49,3.5,Normal
+Azerbaijan,Spotify,Family,9.49,3.5,Normal
+Azerbaijan,Apple TV+,Monthly,6.99,3.5,Normal
+Armenia,Apple TV+,Monthly,7.99,4.11,Normal
+Germany,Spotify,Duo,20.68,26.97,Normal
+Germany,Spotify,Family,25.28,26.97,Outlier
+Mongolia,Apple TV+,Monthly,6.99,3.25,Normal
+Mongolia,Netflix,Premium,9.99,3.25,Normal
+Mongolia,Netflix,Standard,7.99,3.25,Normal
+Mongolia,Netflix,Basic,3.99,3.25,Normal
+Tajikistan,Apple TV+,Monthly,7.99,0.64,Normal
+France,Spotify,Duo,19.77,22.16,Normal
+France,Spotify,Family,24.41,22.16,Outlier
+France,Apple TV+,Monthly,11.48,22.16,Normal
+Spain,Spotify,Duo,19.53,16.98,Normal
+Spain,Spotify,Family,24.13,16.98,Outlier
+Spain,Apple TV+,Monthly,11.48,16.98,Normal
+Italy,Spotify,Duo,19.53,19.42,Normal
+Italy,Spotify,Family,24.13,19.42,Outlier
+Italy,Apple TV+,Monthly,11.48,19.42,Normal
+Switzerland,Apple TV+,Monthly,13.8,50.0,Normal
+Luxembourg,Apple TV+,Monthly,11.48,66.24,Normal
+Austria,Spotify,Duo,19.53,28.01,Normal
+Austria,Spotify,Family,24.13,28.01,Outlier
+Norway,Apple TV+,Monthly,12.24,41.72,Normal
+Norway,Netflix,Premium,19.44,41.72,Normal
+Norway,Netflix,Standard,13.27,41.72,Normal
+Norway,Netflix,Basic,10.19,41.72,Normal
+Portugal,Spotify,Duo,13.78,14.08,Normal
+Portugal,Spotify,Family,17.8,14.08,Normal
+Portugal,Apple TV+,Monthly,11.48,14.08,Normal
+Netherlands,Spotify,Duo,20.68,32.46,Normal
+Netherlands,Spotify,Family,25.28,32.46,Outlier
+Netherlands,Apple TV+,Monthly,11.48,32.46,Normal
+Sweden,Apple TV+,Monthly,10.58,27.46,Normal
+Finland,Apple TV+,Monthly,11.48,25.55,Normal
+Iceland,Spotify,Duo,21.25,41.37,Normal
+Iceland,Spotify,Family,25.28,41.37,Outlier
+Iceland,Apple TV+,Monthly,12.99,41.37,Normal
+Poland,Apple TV+,Monthly,9.51,12.07,Normal
+Romania,Apple TV+,Monthly,12.99,9.65,Normal
+Bosnia and Herzegovina,Apple TV+,Monthly,12.99,4.5,Normal
+Slovakia,Spotify,Duo,11.48,12.5,Normal
+Slovakia,Spotify,Family,13.78,12.5,Normal
+Slovakia,Apple TV+,Monthly,14.99,12.5,Normal
+Serbia,Spotify,Individual,6.89,6.58,Normal
+Serbia,Spotify,Student,3.78,6.58,Normal
+Serbia,Spotify,Duo,9.76,6.58,Normal
+Serbia,Spotify,Family,12.06,6.58,Normal
+Serbia,Apple TV+,Monthly,12.99,6.58,Normal
+Croatia,Spotify,Duo,11.48,11.56,Normal
+Croatia,Spotify,Family,14.36,11.56,Normal
+Croatia,Apple TV+,Monthly,12.99,11.56,Normal
+Albania,Apple TV+,Monthly,12.99,5.47,Normal
+Montenegro,Spotify,Duo,9.76,6.38,Normal
+Montenegro,Spotify,Family,12.06,6.38,Normal
+Montenegro,Apple TV+,Monthly,12.99,6.38,Normal
+North Macedonia,Apple TV+,Monthly,12.99,4.47,Normal
+Bulgaria,Spotify,Duo,9.1,8.46,Normal
+Bulgaria,Spotify,Family,11.46,8.46,Normal
+Bulgaria,Apple TV+,Monthly,14.99,8.46,Normal
+Ukraine,Spotify,Duo,6.49,2.59,Normal
+Ukraine,Spotify,Family,7.99,2.59,Normal
+Ukraine,Apple TV+,Monthly,4.99,2.59,Normal
+Greece,Apple TV+,Monthly,14.99,11.84,Normal
+Belarus,Spotify,Duo,7.49,4.0,Normal
+Belarus,Spotify,Family,9.49,4.0,Normal
+Belarus,Apple TV+,Monthly,7.99,4.0,Normal
+Estonia,Spotify,Individual,13.78,15.11,Normal
+Estonia,Spotify,Student,7.46,15.11,Normal
+Estonia,Spotify,Duo,18.38,15.11,Normal
+Estonia,Spotify,Family,22.98,15.11,Outlier
+Estonia,Apple TV+,Monthly,14.99,15.11,Normal
+Slovenia,Spotify,Duo,11.48,16.49,Normal
+Slovenia,Spotify,Family,14.36,16.49,Normal
+Slovenia,Apple TV+,Monthly,14.99,16.49,Normal
+Mexico,Apple TV+,Monthly,169.0,6.82,Outlier
+Mexico,Netflix,Premium,369.0,6.82,Outlier
+Mexico,Netflix,Standard with Ads,139.0,6.82,Outlier
+Mexico,Netflix,Standard,269.0,6.82,Outlier
+Colombia,Spotify,Duo,24.5,3.81,Outlier
+Colombia,Spotify,Family,30.5,3.81,Outlier
+Colombia,Apple TV+,Monthly,29.9,3.81,Outlier
+Moldova,Spotify,Duo,7.49,3.64,Normal
+Moldova,Spotify,Family,9.49,3.64,Normal
+Moldova,Apple TV+,Monthly,7.99,3.64,Normal
+Latvia,Spotify,Duo,18.38,11.25,Normal
+Latvia,Spotify,Family,22.98,11.25,Outlier
+Latvia,Apple TV+,Monthly,14.99,11.25,Normal
+Argentina,Apple TV+,Monthly,6.99,6.72,Normal
+Lithuania,Spotify,Duo,13.78,6.19,Normal
+Lithuania,Spotify,Duo,13.78,14.13,Normal
+Lithuania,Spotify,Family,17.23,6.19,Normal
+Lithuania,Spotify,Family,17.23,14.13,Normal
+Lithuania,Apple TV+,Monthly,14.99,6.19,Normal
+Lithuania,Apple TV+,Monthly,14.99,14.13,Normal
+Uruguay,Apple TV+,Monthly,12.99,11.49,Normal
+Uruguay,Netflix,Premium,21.99,11.49,Normal
+Uruguay,Netflix,Standard,16.99,11.49,Normal
+Uruguay,Netflix,Basic,11.99,11.49,Normal
+Chile,Apple TV+,Monthly,4.99,8.03,Normal
+Chile,Netflix,Premium,12.99,8.03,Normal
+Chile,Netflix,Standard,9.99,8.03,Normal
+Chile,Netflix,Basic,7.19,8.03,Normal
+Ecuador,Apple TV+,Monthly,6.99,15.17,Normal
+Ecuador,Apple TV+,Monthly,6.99,3.31,Normal
+Ecuador,Netflix,Premium,11.99,15.17,Normal
+Ecuador,Netflix,Premium,11.99,3.31,Normal
+Ecuador,Netflix,Standard,8.99,15.17,Normal
+Ecuador,Netflix,Standard,8.99,3.31,Normal
+Ecuador,Netflix,Basic,5.99,15.17,Normal
+Ecuador,Netflix,Basic,5.99,3.31,Normal
+Costa Rica,Netflix,Premium,17.99,8.94,Normal
+Costa Rica,Netflix,Standard,14.99,8.94,Normal
+Costa Rica,Netflix,Basic,9.99,8.94,Normal
+Bolivia,Netflix,Premium,7.99,2.13,Normal
+Bolivia,Netflix,Standard,5.99,2.13,Normal
+Bolivia,Netflix,Basic,3.99,2.13,Normal
+Paraguay,Netflix,Premium,7.99,3.08,Normal
+Paraguay,Netflix,Standard,5.99,3.08,Normal
+Paraguay,Netflix,Basic,3.99,3.08,Normal
+Venezuela,Netflix,Premium,7.99,2.03,Normal
+Venezuela,Netflix,Standard,5.99,2.03,Normal
+Venezuela,Netflix,Basic,3.99,2.03,Normal
+Jamaica,Apple TV+,Monthly,12.99,3.73,Normal
+Jamaica,Netflix,Premium,9.99,3.73,Normal
+Jamaica,Netflix,Standard,6.99,3.73,Normal
+Jamaica,Netflix,Basic,4.99,3.73,Normal
+El Salvador,Apple TV+,Monthly,6.99,2.68,Normal
+El Salvador,Netflix,Premium,13.99,2.68,Normal
+El Salvador,Netflix,Standard,9.99,2.68,Normal
+El Salvador,Netflix,Basic,6.99,2.68,Normal
+Honduras,Netflix,Premium,13.99,1.65,Normal
+Honduras,Netflix,Standard,9.99,1.65,Normal
+Honduras,Netflix,Basic,6.99,1.65,Normal
+Dominican Republic,Apple TV+,Monthly,6.99,5.23,Normal
+Dominican Republic,Netflix,Premium,13.99,5.23,Normal
+Dominican Republic,Netflix,Standard,9.99,5.23,Normal
+Dominican Republic,Netflix,Basic,6.99,5.23,Normal
+Barbados,Apple TV+,Monthly,12.99,12.76,Normal
+Barbados,Netflix,Premium,18.79,12.76,Normal
+Barbados,Netflix,Standard,15.29,12.76,Normal
+Barbados,Netflix,Basic,10.59,12.76,Normal
+Guatemala,Netflix,Premium,13.99,2.96,Normal
+Guatemala,Netflix,Standard,9.99,2.96,Normal
+Guatemala,Netflix,Basic,6.99,2.96,Normal
+Guyana,Apple TV+,Monthly,12.99,14.27,Normal
+Guyana,Netflix,Premium,7.99,14.27,Normal
+Guyana,Netflix,Standard,5.99,14.27,Normal
+Guyana,Netflix,Basic,3.99,14.27,Normal
+Puerto Rico,Apple TV+,Monthly,12.99,18.92,Normal
+Puerto Rico,Netflix,Premium,26.99,18.92,Outlier
+Puerto Rico,Netflix,Standard with Ads,8.99,18.92,Normal
+Puerto Rico,Netflix,Standard,19.99,18.92,Normal
+Suriname,Spotify,Duo,8.99,3.35,Normal
+Suriname,Spotify,Family,11.49,3.35,Normal
+Suriname,Apple TV+,Monthly,12.99,3.35,Normal
+Suriname,Netflix,Premium,7.99,3.35,Normal
+Suriname,Netflix,Standard,5.99,3.35,Normal
+Suriname,Netflix,Basic,3.99,3.35,Normal
+Panama,Netflix,Premium,13.99,9.21,Normal
+Panama,Netflix,Standard,9.99,9.21,Normal
+Panama,Netflix,Basic,5.99,9.21,Normal
+Belize,Spotify,Duo,8.99,3.69,Normal
+Belize,Spotify,Family,11.49,3.69,Normal
+Belize,Apple TV+,Monthly,6.99,3.69,Normal
+Belize,Netflix,Premium,7.99,3.69,Normal
+Belize,Netflix,Standard,5.99,3.69,Normal
+Belize,Netflix,Basic,3.99,3.69,Normal
+Bahamas,Apple TV+,Monthly,7.99,18.97,Normal
+Bahamas,Netflix,Premium,19.99,18.97,Normal
+Bahamas,Netflix,Standard,15.49,18.97,Normal
+Bahamas,Netflix,Basic,10.99,18.97,Normal
+Trinidad and Tobago,Apple TV+,Monthly,6.99,9.01,Normal
+Trinidad and Tobago,Netflix,Premium,19.99,9.01,Normal
+Trinidad and Tobago,Netflix,Standard,15.49,9.01,Normal
+Trinidad and Tobago,Netflix,Basic,10.99,9.01,Normal
+Kenya,Apple TV+,Monthly,12.99,1.03,Normal
+Nicaragua,Netflix,Premium,9.99,1.37,Normal
+Nicaragua,Netflix,Standard,6.99,1.37,Normal
+Nicaragua,Netflix,Basic,4.99,1.37,Normal
+Nigeria,Apple TV+,Monthly,12.99,0.52,Normal
+Zambia,Apple TV+,Monthly,12.99,0.57,Normal
+Zambia,Netflix,Premium,9.99,0.57,Normal
+Zambia,Netflix,Standard,7.99,0.57,Normal
+Zambia,Netflix,Basic,3.99,0.57,Normal
+Ghana,Apple TV+,Monthly,7.99,1.15,Normal
+Ghana,Netflix,Premium,9.99,1.15,Normal
+Ghana,Netflix,Standard,7.99,1.15,Normal
+Ghana,Netflix,Basic,3.99,1.15,Normal
+Tanzania,Apple TV+,Monthly,12.99,0.57,Normal
+Tanzania,Netflix,Premium,9.99,0.57,Normal
+Tanzania,Netflix,Standard,7.99,0.57,Normal
+Tanzania,Netflix,Basic,3.99,0.57,Normal
+Zimbabwe,Apple TV+,Monthly,7.99,1.2,Normal
+Zimbabwe,Netflix,Premium,9.99,1.2,Normal
+Zimbabwe,Netflix,Standard,7.99,1.2,Normal
+Zimbabwe,Netflix,Basic,3.99,1.2,Normal
+Rwanda,Apple TV+,Monthly,12.99,0.48,Normal
+Rwanda,Netflix,Premium,9.99,0.48,Normal
+Rwanda,Netflix,Standard,7.99,0.48,Normal
+Rwanda,Netflix,Basic,3.99,0.48,Normal
+Ethiopia,Spotify,Duo,4.49,0.55,Normal
+Ethiopia,Spotify,Family,5.79,0.55,Normal
+Ethiopia,Apple TV+,Monthly,12.99,0.55,Normal
+Ethiopia,Netflix,Premium,9.99,0.55,Normal
+Ethiopia,Netflix,Standard,7.99,0.55,Normal
+Ethiopia,Netflix,Basic,3.99,0.55,Normal
+Senegal,Spotify,Duo,4.49,0.85,Normal
+Senegal,Spotify,Family,5.79,0.85,Normal
+Senegal,Apple TV+,Monthly,12.99,0.85,Normal
+Senegal,Netflix,Premium,9.99,0.85,Normal
+Senegal,Netflix,Standard,7.99,0.85,Normal
+Senegal,Netflix,Basic,3.99,0.85,Normal
+Uganda,Apple TV+,Monthly,7.99,0.52,Normal
+Uganda,Netflix,Premium,9.99,0.52,Normal
+Uganda,Netflix,Standard,7.99,0.52,Normal
+Uganda,Netflix,Basic,3.99,0.52,Normal
+Angola,Spotify,Duo,4.49,1.28,Normal
+Angola,Spotify,Family,5.79,1.28,Normal
+Angola,Apple TV+,Monthly,12.99,1.28,Normal
+Angola,Netflix,Premium,9.99,1.28,Normal
+Angola,Netflix,Standard,7.99,1.28,Normal
+Angola,Netflix,Basic,3.99,1.28,Normal
+Botswana,Apple TV+,Monthly,6.99,3.7,Normal
+Botswana,Netflix,Premium,9.99,3.7,Normal
+Botswana,Netflix,Standard,7.99,3.7,Normal
+Botswana,Netflix,Basic,3.99,3.7,Normal
+Madagascar,Spotify,Duo,4.49,0.26,Normal
+Madagascar,Spotify,Family,5.79,0.26,Normal
+Madagascar,Apple TV+,Monthly,12.99,0.26,Normal
+Madagascar,Netflix,Premium,9.99,0.26,Normal
+Madagascar,Netflix,Standard,7.99,0.26,Normal
+Madagascar,Netflix,Basic,3.99,0.26,Normal
+Mozambique,Spotify,Duo,4.49,0.32,Normal
+Mozambique,Spotify,Family,5.79,0.32,Normal
+Mozambique,Apple TV+,Monthly,6.99,0.32,Normal
+Mozambique,Netflix,Premium,9.99,0.32,Normal
+Mozambique,Netflix,Standard,7.99,0.32,Normal
+Mozambique,Netflix,Basic,3.99,0.32,Normal
+Seychelles,Spotify,Duo,7.49,8.59,Normal
+Seychelles,Spotify,Family,9.49,8.59,Normal
+Seychelles,Apple TV+,Monthly,12.99,8.59,Normal
+Seychelles,Netflix,Premium,9.99,8.59,Normal
+Seychelles,Netflix,Standard,7.99,8.59,Normal
+Seychelles,Netflix,Basic,3.99,8.59,Normal
+Namibia,Spotify,Duo,4.49,2.12,Normal
+Namibia,Spotify,Family,5.79,2.12,Normal
+Namibia,Apple TV+,Monthly,6.99,2.12,Normal
+Namibia,Netflix,Premium,9.99,2.12,Normal
+Namibia,Netflix,Standard,7.99,2.12,Normal
+Namibia,Netflix,Basic,3.99,2.12,Normal
+Mauritius,Apple TV+,Monthly,6.99,5.76,Normal
+Mauritius,Netflix,Premium,9.99,5.76,Normal
+Mauritius,Netflix,Standard,7.99,5.76,Normal
+Mauritius,Netflix,Basic,3.99,5.76,Normal
