@@ -1,106 +1,106 @@
 Keyword,TF-IDF Score,Region
-simulator,0.022438,Brazil
-ii,0.02051,Brazil
-edition,0.014261,Brazil
-black,0.011138,Brazil
-planet,0.010754,Brazil
-warhammer,0.010147,Brazil
-resident,0.009708,Brazil
-evil,0.009708,Brazil
-resident evil,0.009708,Brazil
-life,0.009287,Brazil
-grounded,0.009091,Brazil
-escape,0.008777,Brazil
-keeper,0.008713,Brazil
-rogue,0.00828,Brazil
-duty,0.00817,Brazil
-simulator,0.025389,China
-ii,0.018628,China
-edition,0.015565,China
-evil,0.014326,China
-resident,0.014326,China
-resident evil,0.014326,China
-planet,0.010884,China
-escape,0.008664,China
-age,0.008423,China
-keeper,0.008406,China
-duty,0.008325,China
-dead,0.008025,China
-warhammer,0.008024,China
-grounded,0.007816,China
-fall,0.007638,China
-simulator,0.025515,Germany
-evil,0.019267,Germany
-resident,0.019267,Germany
-resident evil,0.019267,Germany
-ii,0.017502,Germany
-edition,0.01195,Germany
-black,0.010075,Germany
-world,0.009761,Germany
-age,0.009116,Germany
-warhammer,0.00856,Germany
-dead,0.008202,Germany
-fallout,0.008163,Germany
-planet,0.007881,Germany
-duty,0.007436,Germany
-zone,0.007344,Germany
-simulator,0.023116,IN
-ii,0.017517,IN
-edition,0.015319,IN
-resident,0.014042,IN
-evil,0.014042,IN
-resident evil,0.014042,IN
-black,0.009813,IN
-planet,0.009301,IN
-warhammer,0.009162,IN
-age,0.008579,IN
-grounded,0.008451,IN
-escape,0.008189,IN
-life,0.008031,IN
-keeper,0.007582,IN
-duty,0.007541,IN
-simulator,0.024181,Turkey
-evil,0.019997,Turkey
-resident,0.019997,Turkey
-resident evil,0.019997,Turkey
-ii,0.015968,Turkey
-edition,0.011645,Turkey
-black,0.010918,Turkey
-warhammer,0.009224,Turkey
-age,0.009125,Turkey
-dead,0.009002,Turkey
-planet,0.008783,Turkey
-world,0.008602,Turkey
-duty,0.007854,Turkey
-life,0.007224,Turkey
-keeper,0.006886,Turkey
-simulator,0.023989,United Kingdom
-evil,0.018541,United Kingdom
-resident,0.018541,United Kingdom
-resident evil,0.018541,United Kingdom
-ii,0.01678,United Kingdom
-warhammer,0.010836,United Kingdom
-edition,0.010687,United Kingdom
-black,0.010323,United Kingdom
-world,0.009111,United Kingdom
+simulator,0.02249,Brazil
+ii,0.020461,Brazil
+edition,0.014216,Brazil
+black,0.011152,Brazil
+planet,0.010676,Brazil
+resident evil,0.009668,Brazil
+evil,0.009668,Brazil
+resident,0.009668,Brazil
+life,0.009257,Brazil
+grounded,0.009133,Brazil
+warhammer,0.009092,Brazil
+escape,0.00877,Brazil
+keeper,0.008703,Brazil
+duty,0.008154,Brazil
+dead,0.007873,Brazil
+simulator,0.025396,China
+ii,0.018608,China
+edition,0.015518,China
+resident,0.01426,China
+resident evil,0.01426,China
+evil,0.01426,China
+planet,0.010813,China
+escape,0.008682,China
+age,0.008432,China
+keeper,0.0084,China
+duty,0.00831,China
+warhammer,0.008078,China
+dead,0.008015,China
+grounded,0.007814,China
+fall,0.007588,China
+simulator,0.025489,Germany
+resident evil,0.019155,Germany
+evil,0.019155,Germany
+resident,0.019155,Germany
+ii,0.017509,Germany
+edition,0.011931,Germany
+black,0.010119,Germany
+world,0.009752,Germany
+age,0.009134,Germany
+warhammer,0.008552,Germany
+dead,0.008271,Germany
+fallout,0.008128,Germany
+planet,0.007832,Germany
+duty,0.007439,Germany
+zone,0.007316,Germany
+simulator,0.02311,IN
+ii,0.01747,IN
+edition,0.015269,IN
+resident,0.013976,IN
+evil,0.013976,IN
+resident evil,0.013976,IN
+black,0.009832,IN
+planet,0.00924,IN
+warhammer,0.009217,IN
+age,0.008585,IN
+grounded,0.008491,IN
+escape,0.008185,IN
+life,0.008011,IN
+keeper,0.007579,IN
+duty,0.007529,IN
+simulator,0.021607,Turkey
+resident evil,0.019888,Turkey
+resident,0.019888,Turkey
+evil,0.019888,Turkey
+ii,0.015931,Turkey
+edition,0.011628,Turkey
+black,0.010928,Turkey
+warhammer,0.009228,Turkey
+age,0.009127,Turkey
+dead,0.008988,Turkey
+planet,0.008718,Turkey
+world,0.008621,Turkey
+duty,0.007829,Turkey
+life,0.007198,Turkey
+keeper,0.006875,Turkey
+simulator,0.023997,United Kingdom
+resident,0.018438,United Kingdom
+evil,0.018438,United Kingdom
+resident evil,0.018438,United Kingdom
+ii,0.016744,United Kingdom
+warhammer,0.010845,United Kingdom
+edition,0.010674,United Kingdom
+black,0.009673,United Kingdom
+world,0.009123,United Kingdom
 age,0.008946,United Kingdom
-escape,0.008687,United Kingdom
-dead,0.008125,United Kingdom
-fallout,0.008086,United Kingdom
-planet,0.007387,United Kingdom
-duty,0.00722,United Kingdom
-simulator,0.02402,United States
-ii,0.017593,United States
-evil,0.016726,United States
-resident evil,0.01669,United States
-resident,0.01669,United States
-edition,0.012708,United States
-warhammer,0.010035,United States
-black,0.009498,United States
-fallout,0.008809,United States
-dead,0.008618,United States
-age,0.007961,United States
-world,0.007847,United States
-escape,0.007738,United States
-duty,0.006776,United States
-planet,0.006491,United States
+escape,0.008686,United Kingdom
+dead,0.008116,United Kingdom
+fallout,0.008103,United Kingdom
+planet,0.007331,United Kingdom
+duty,0.0072,United Kingdom
+simulator,0.023998,United States
+ii,0.017621,United States
+evil,0.01662,United States
+resident evil,0.016584,United States
+resident,0.016584,United States
+edition,0.012676,United States
+warhammer,0.01003,United States
+black,0.009548,United States
+fallout,0.008801,United States
+dead,0.008688,United States
+age,0.007991,United States
+world,0.007852,United States
+escape,0.007728,United States
+duty,0.006783,United States
+planet,0.006448,United States
