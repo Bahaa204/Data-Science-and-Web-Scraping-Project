@@ -6,7 +6,6 @@ import Constants
 
 st.set_page_config(
     page_title="Streaming & Gaming Price Dashboard",
-    page_icon="🎮",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -70,7 +69,8 @@ subs, hourly, steam, affordability = load_shared()
 
 @st.cache_data
 def load_eda():
-    if not EDA_OUTPUT.exists(): return None
+    if not EDA_OUTPUT.exists():
+        return None
     return {
         "corr": _read(EDA_OUTPUT, "Pearson_correlation_matrix.csv"),
         "desc": _read(EDA_OUTPUT, "Descriptive_stats_per_platform.csv"),
@@ -82,7 +82,8 @@ def load_eda():
 
 @st.cache_data
 def load_ml():
-    if not ML_OUTPUT.exists() : return None
+    if not ML_OUTPUT.exists():
+        return None
     return {
         "clusters": _read(ML_OUTPUT, "ml_kmeans_clusters.csv"),
         "pca_var_json": _json(ML_OUTPUT, "ml_pca_variance.json"),
@@ -100,7 +101,8 @@ def load_ml():
 
 @st.cache_data
 def load_nlp():
-    if not NLP_OUTPUT.exists(): return None
+    if not NLP_OUTPUT.exists():
+        return None
     return {
         "tfidf30": _read(NLP_OUTPUT, "nlp_tfidf_top30.csv"),
         "tfidf_dv": _read(NLP_OUTPUT, "nlp_tfidf_disc_vs_full.csv"),
@@ -1148,7 +1150,7 @@ with tab8:
         display_steam = exact if len(exact) > 0 else steam_match
 
         game_name = display_steam["Title"].iloc[0]
-        st.markdown(f"## 🎮 {game_name}")
+        st.markdown(f"## {game_name}")
 
         # Basic info row
         c1, c2, c3, c4 = st.columns(4)
@@ -1324,7 +1326,7 @@ with tab8:
     # ═════════ SUBSCRIPTION RESULTS ════════════════════════════
     if len(sub_match) > 0:
         platform_name = sub_match["platform"].iloc[0]
-        st.markdown(f"## 📡 {platform_name}")
+        st.markdown(f"## {platform_name}")
 
         # Key metrics
         c1, c2, c3, c4 = st.columns(4)
